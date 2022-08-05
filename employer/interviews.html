@@ -1,0 +1,753 @@
+<!DOCTYPE HTML>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Interviews | Oysterwings</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="../favicon.png">
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800" rel="stylesheet">
+<link rel="stylesheet" href="../plugins/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="../plugins/fontawesome/fontawesome-free/css/all.min.css">
+<link rel="stylesheet" href="../plugins/icon-kit/dist/css/iconkit.min.css">
+<link rel="stylesheet" href="../plugins/ionicons/dist/css/ionicons.min.css">
+<link rel="stylesheet" href="../plugins/perfect-scrollbar/css/perfect-scrollbar.css">
+<link rel="stylesheet" href="../dist/css/theme.min.css">
+<script src="../src/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+<!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div class="wrapper">
+  <header class="header-top" header-theme="light">
+    <div class="container-fluid">
+      <div class="d-flex justify-content-between">
+        <div class="top-menu d-flex align-items-center">
+          <button type="button" class="btn-icon mobile-nav-toggle d-lg-none"><span></span></button>
+          <div class="header-search">
+            <div class="input-group"> <span class="input-group-addon search-close"><i class="ik ik-x"></i></span>
+              <input type="text" class="form-control">
+              <span class="input-group-addon search-btn"><i class="ik ik-search"></i></span> </div>
+          </div>
+          <button type="button" id="navbar-fullscreen" class="nav-link"><i class="ik ik-maximize"></i></button>
+        </div>
+        <div class="top-menu d-flex align-items-center">
+          <div class="dropdown"> <a class="nav-link dropdown-toggle" href="#" id="notiDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="ik ik-bell"></i><span class="badge bg-danger">3</span></a>
+            <div class="dropdown-menu dropdown-menu-right notification-dropdown" aria-labelledby="notiDropdown">
+              <h4 class="header">Notifications</h4>
+              <div class="notifications-wrap"> <a href="#" class="media"> <span class="d-flex"> <i class="ik ik-check"></i> </span> <span class="media-body"> <span class="heading-font-family media-heading">Invitation accepted</span> <span class="media-content">Your have been Invited ...</span> </span> </a> <a href="#" class="media"> <span class="d-flex"> <img src="../img/air-india3.jpg" class="rounded-circle" alt=""> </span> <span class="media-body"> <span class="heading-font-family media-heading">Air India</span> <span class="media-content">Meeting with Rahul on Friday 10 AM</span> </span> </a> <a href="#" class="media"> <span class="d-flex"> <i class="ik ik-calendar"></i> </span> <span class="media-body"> <span class="heading-font-family media-heading">To Do</span> <span class="media-content">Meeting with Nathan on Saturday 9 AM ...</span> </span> </a> </div>
+              <div class="footer"><a href="notification.html">See all activity</a></div>
+            </div>
+          </div>
+          <div class="dropdown"> <a class="dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>John Doe &nbsp;</span><img class="avatar" src="../img/user2.jpg" alt=""></a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown"> <a class="dropdown-item" href="profile.html"><i class="ik ik-user dropdown-icon"></i>View Profile</a><a class="dropdown-item" href="change-password.html"><i class="ik ik-lock dropdown-icon"></i>Change Password</a> <a class="dropdown-item" href="login.html"><i class="ik ik-power dropdown-icon"></i> Logout</a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+ 
+  <div class="page-wrap">
+    <div class="app-sidebar colored">
+      <div class="sidebar-header"> <a class="header-brand" href="index.html">
+        <div class="logo-img"> <img src="../img/logo.png" class="header-brand-img" alt="Oysterwings" /> <span class="text">Oysterwings</span></div>
+        </a>
+        <button type="button" class="nav-toggle"><i data-toggle="expanded" class="ik ik-toggle-right toggle-icon"></i></button>
+        <button id="sidebarClose" class="nav-close"><i class="ik ik-x"></i></button>
+      </div>
+      <div class="sidebar-content">
+        <div class="nav-container">
+          <nav id="main-menu-navigation" class="navigation-main">
+            <div class="nav-lavel">Navigation</div>
+            <div class="nav-item"> <a href="index.html"><i class="ik ik-bar-chart-2"></i><span>Dashboard</span></a> </div>
+            <div class="nav-item"> <a href="complete-profile.html"><i class="ik ik-user"></i><span>Complete Profile</span></a> </div>
+            <div class="nav-item"> <a href="jobs.html"><i class="ik ik-user-check"></i><span>Jobs</span></a> </div>
+            <div class="nav-item"> <a href="search.html"><i class="ik ik-search"></i><span>Oysterwings Search</span></a> </div>
+            <div class="nav-item"> <a href="my-conversations.html#lastli"><i class="ik ik-message-circle"></i><span>My Conversations</span> <span class="badge badge-danger">3</span></a> </div>
+            <div class="nav-item"> <a href="interviews.html"><i class="fa fa-question"></i> <span>Interviews</span></a> </div>
+            <div class="nav-item"> <a href="notification.html"><i class="ik ik-bell"></i> <span>Notification</span></a></div>
+            <div class="nav-item"> <a href="subscription.html"><i class="ik ik-list"></i> <span>My Subscription</span></a></div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="container-fluid">
+         <div class="page-header">
+            <div class="row align-items-end">
+                <div class="col-lg-8" >
+                    <div class="page-header-title">
+                        <i class="fa fa-question bg-blue"></i>
+                       <div class="d-inline"><h5>Interviews</h5></div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <nav class="breadcrumb-container" aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a href="index.html"><i class="ik ik-home"></i></a>
+                            </li>
+                            <li class="breadcrumb-item active" aria-current="page">Interviews</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+          <div class="row clearfix">
+          <div class="col-lg-12">
+            <div class="card">
+              <div class="card-body">
+                <h5><strong>Find jobs by name and location</strong></h5>
+                <div class="row mt-2">
+                  <div class="col-md-5"> 
+                     <div class="form-group has-search input-group-lg">
+                <span class="ik ik-search form-control-feedback"></span>
+                <input type="text" class="form-control rounded-0" placeholder="Search jobs">
+            </div>
+                    
+                  </div>
+                  <div class="col-md-5">
+                    <div class="form-group has-search input-group-lg">
+                <span class="ik ik-map-pin form-control-feedback"></span>
+                <input type="text" class="form-control rounded-0" placeholder="Search Location">
+            </div>
+                   
+                  </div>
+                  <div class="col-md-2">
+                    <button class="btn btn-lg btn-primary">Search</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card">
+                <div class="card-header">
+                <h3><b>Filter</b></h3>
+              </div>
+              <div class="card-body">
+                  <div class="form-group"><span><strong>Type of Job</strong></span>  
+                  </div> 
+                     <div class="checkbox-fade fade-in-primary">
+                        <label>
+                            <input type="checkbox" class="parentCheckBox" value="">
+                            <span class="cr">
+                                <i class="cr-icon ik ik-check txt-primary"></i>
+                            </span>
+                            <span><strong>Senior Pilot</strong></span>
+                        </label>
+                    </div>
+                    <div class="checkbox-fade fade-in-primary">
+                        <label>
+                            <input type="checkbox" class="parentCheckBox" value="">
+                            <span class="cr">
+                                <i class="cr-icon ik ik-check txt-primary"></i>
+                            </span>
+                            <span><strong>Senior Flight Attendant</strong></span>
+                        </label>
+                    </div>
+                    <div class="checkbox-fade fade-in-primary">
+                        <label>
+                            <input type="checkbox" class="parentCheckBox" value="">
+                            <span class="cr">
+                                <i class="cr-icon ik ik-check txt-primary"></i>
+                            </span>
+                            <span><strong>Flight Attendant</strong></span>
+                        </label>
+                    </div>
+                  <hr>
+                  <div class="form-group"><span><strong>All requests</strong></span>  
+                  </div> 
+                  <div class="checkbox-fade fade-in-primary">
+                        <label>
+                            <input type="checkbox" class="parentCheckBox" value="" checked>
+                            <span class="cr">
+                                <i class="cr-icon ik ik-check txt-primary"></i>
+                            </span>
+                            <span><strong>Accepted</strong></span>
+                        </label>
+                    </div><br>
+                    <div class="checkbox-fade fade-in-primary">
+                        <label>
+                            <input type="checkbox" class="parentCheckBox" value="">
+                            <span class="cr">
+                                <i class="cr-icon ik ik-check txt-primary"></i>
+                            </span>
+                            <span><strong>Pending</strong></span>
+                        </label>
+                    </div><br>
+                    <div class="checkbox-fade fade-in-primary">
+                        <label>
+                            <input type="checkbox" class="parentCheckBox" value="">
+                            <span class="cr">
+                                <i class="cr-icon ik ik-check txt-primary"></i>
+                            </span>
+                            <span><strong>Countered</strong></span>
+                        </label>
+                    </div><br>
+                  <hr>
+                  <div class="form-group"> <span><strong>Location of Job</strong></span>
+                  </div>
+                    <div class="form-group form-row">
+                      <div class="col-md-12">
+                        <select class="form-control multiselect" multiple>
+                          <option value="1">Delhi</option>
+                          <option value="2">Mumbai</option>
+                          <option value="2">Tokyo</option>
+                          <option value="2">Chennai</option>
+                        </select>
+                      </div>
+                    </div></hr>
+                    <div class="row">
+                      <div class="col"><button type="button" class="btn btn-sm mr-3">Reset</button></div>
+                      <div class="col text-right"><button type="button" class="btn btn-sm btn-primary">Apply</button></div>
+                    </div>  
+
+
+                   
+              </div>
+              </div></div>
+            <div class="col-lg-8 col-md-6 col-sm-12">
+                <ul class="nav nav-tabs">
+              <li class="nav-item"> <a href="" data-target="#needSchuduling" data-toggle="tab" class="nav-link active">Need Scheduling</a> </li>
+              <li class="nav-item"> <a href="" data-target="#UpcomingInterviews" data-toggle="tab" class="nav-link">Upcoming Interviews</a> </li>
+              <li class="nav-item"> <a href="" data-target="#SelectedCandidates" data-toggle="tab" class="nav-link">Selected Candidates</a> </li>
+              <li class="nav-item"> <a href="" data-target="#DeclienedCandidates" data-toggle="tab" class="nav-link">Decliened Candidates</a> </li>
+            </ul>
+           
+
+            <div class="tab-content py-4">
+              <!-- start tab pan NeedSchuduling-->
+              <div class="tab-pane active" id="needSchuduling">
+                <h6 class="mb-3">
+                	Need Schuduling
+                	<div class="col-md-6 float-right text-right">
+                    	<small>
+                              <i class="ik ik-check fa-lg" title="Accepted"></i> Accepted  &nbsp;&nbsp;
+                              <i class="ik ik-clock fa-lg" title="Pending"></i> Pending   &nbsp;&nbsp;
+                              <i class="ik ik-list fa-lg" title="Countered"></i> Countered
+                      	</small>
+                    </div>
+                </h6>
+                
+                <div class="table-responsive">
+                      <table class="table table-sm table-hover table-striped table-bordered" id="hoverTable">
+                        <thead>
+                          <tr>
+                            <th></th>
+                            <th>Name</th>
+                            <th>Location</th>
+                            <th class="text-center">Status</th>
+                            <th class="text-center">Action</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="text-center"><div class="circlrimginterview"><img src="../img/users/user1.jpg" class="rounded-circle" alt="John Doe" width="30px" height="30px"></div></td>
+                            <td>John Doe</td>
+                            <td>Delhi</td>
+                            <td class="text-center"><i class="ik ik-check fa-lg" title="Accepted"></i></td> 
+                            <td class="text-center"><a href="my-conversations.html#lastli"><i class="ik ik-message-circle text-primary mr-2" title="Send Message"></i></a><a href="#" data-toggle="modal" data-target="#Schedule"><i class="ik ik-calendar text-dark mr-2 " title="Time Schedule"></i></a><a href="#" data-toggle="modal" data-target="#finaloffer"><i class="ik ik-check-circle text-info mr-2" title="Final Offer"></i></a> <a href="#" data-toggle="modal" data-target="#CounterDetails"><i class="ik ik-eye text-dark mr-2" title="View Countered Offer"></i></a><a href="#" data-toggle="modal" data-target="#declineOffer"><i class="ik ik-x-circle text-primary mr-2" title="Decline"></i></a></td>
+                          </tr>
+                           <tr>
+                            <td class="text-center"><img src="../img/users/user2.jpg" class="rounded-circle" alt="John Doe"width="30px" height="30px"></td>
+                            <td>Jonny Doe</td>
+                            <td>Mumbai</td>
+                            <td class="text-center"><i class="ik ik-clock fa-lg" title="Pending"></i></td> 
+                            <td class="text-center"><a href="my-conversations.html#lastli"><i class="ik ik-message-circle text-primary mr-2" title="Send Message"></i></a><a href="#" data-toggle="modal" data-target="#Schedule"><i class="ik ik-calendar text-dark mr-2 " title="Time Schedule"></i></a><a href="#" data-toggle="modal" data-target="#finaloffer"><i class="ik ik-check-circle text-info mr-2" title="Final Offer"></i></a> <a href="#" data-toggle="modal" data-target="#CounterDetails"><i class="ik ik-eye text-dark mr-2" title="View Countered Offer"></i></a><a href="#" data-toggle="modal" data-target="#declineOffer"><i class="ik ik-x-circle text-primary mr-2" title="Decline"></i></a></td>
+                          </tr>
+                           <tr>
+                            <td class="text-center"><img src="../img/users/user3.jpg" class="rounded-circle" alt="John Doe" width="30px" height="30px"></td>
+                            <td>Jacqueline Sharma</td>
+                            <td>Tokyo</td>
+                            <td class="text-center"><i class="ik ik-check fa-lg" title="Accepted"></i></td> 
+                            <td class="text-center"><a href="my-conversations.html#lastli"><i class="ik ik-message-circle text-primary mr-2" title="Send Message"></i></a><a href="#" data-toggle="modal" data-target="#Schedule"><i class="ik ik-calendar text-dark mr-2 " title="Time Schedule"></i></a><a href="#" data-toggle="modal" data-target="#finaloffer"><i class="ik ik-check-circle text-info mr-2" title="Final Offer"></i></a> <a href="#" data-toggle="modal" data-target="#CounterDetails"><i class="ik ik-eye text-dark mr-2" title="View Countered Offer"></i></a><a href="#" data-toggle="modal" data-target="#declineOffer"><i class="ik ik-x-circle text-primary mr-2" title="Decline"></i></a></td>
+                          </tr>
+                           <tr>
+                            <td class="text-center"><img src="../img/users/user4.jpg" class="rounded-circle" alt="John Doe" width="30px" height="30px"></td>
+                            <td>Rahul Sinha</td>
+                            <td>Chennai</td>
+                            <td class="text-center"><i class="ik ik-list fa-lg" title="Countered"></i></td> 
+                            <td class="text-center"><a href="my-conversations.html#lastli"><i class="ik ik-message-circle text-primary mr-2" title="Send Message"></i></a><a href="#" data-toggle="modal" data-target="#Schedule"><i class="ik ik-calendar text-dark mr-2 " title="Time Schedule"></i></a><a href="#" data-toggle="modal" data-target="#finaloffer"><i class="ik ik-check-circle text-info mr-2" title="Final Offer"></i></a> <a href="#" data-toggle="modal" data-target="#CounterDetails"><i class="ik ik-eye text-dark mr-2" title="View Countered Offer"></i></a><a href="#" data-toggle="modal" data-target="#declineOffer"><i class="ik ik-x-circle text-primary mr-2" title="Decline"></i></a></td>
+                          </tr>
+                           <tr>
+                            <td class="text-center"><img src="../img/users/user5.jpg" class="rounded-circle" alt="John Doe" width="30px" height="30px"></td>
+                            <td>Mohit Agarwal</td>
+                            <td>Delhi</td>
+                            <td class="text-center"><i class="ik ik-clock fa-lg" title="Pending"></i></td> 
+                            <td class="text-center"><a href="my-conversations.html#lastli"><i class="ik ik-message-circle text-primary mr-2" title="Send Message"></i></a><a href="#" data-toggle="modal" data-target="#Schedule"><i class="ik ik-calendar text-dark mr-2 " title="Time Schedule"></i></a><a href="#" data-toggle="modal" data-target="#finaloffer"><i class="ik ik-check-circle text-info mr-2" title="Final Offer"></i></a> <a href="#" data-toggle="modal" data-target="#CounterDetails"><i class="ik ik-eye text-dark mr-2" title="View Countered Offer"></i></a><a href="#" data-toggle="modal" data-target="#declineOffer"><i class="ik ik-x-circle text-primary mr-2" title="Decline"></i></a></td>
+                          </tr>
+                         
+                          
+                          
+                         
+                        </tbody>
+                      </table>
+                      
+                    </div>
+              </div>
+              <!-- start tab pan UpcomingInterviews-->
+              <div class="tab-pane " id="UpcomingInterviews">
+                <div class="row mb-3">
+                  <div class="col"><h6><b>Upcoming Interviews</b></h6> </div>
+                  <div class="col text-right"><a href="upcoming-interview.html" class="btn-sm btn-link"> View all</a> </div>
+                </div>
+                
+                <ul class="list-unstyled">
+                <li class="notification">
+                          <div class="media">
+                            <div class="media-left">
+                              <div class="media-object">
+                                <img src="../img/users/user5.jpg" class="img-circle" alt="Rahul Sinha">
+                              </div>
+                            </div>
+                            <div class="media-body">
+                               <h6><b>Rahul Sinha</b></h6>
+                                  <b>Location: </b>Delhi&nbsp;&nbsp;&nbsp;&nbsp; <b>Time: </b>04:00pm&nbsp;&nbsp;&nbsp;&nbsp; <b>Type of interview: </b>F2F
+                    
+                            </div>
+                          </div>
+                      </li>
+                      <li class="notification">
+                          <div class="media">
+                            <div class="media-left">
+                              <div class="media-object">
+                                <img src="../img/users/user4.jpg" class="img-circle" alt="Mohit Agarwal">
+                              </div>
+                            </div>
+                            <div class="media-body">
+                               <h6><b>Mohit Agarwal</b></h6>
+                                  <b>Location: </b>Mumbai&nbsp;&nbsp;&nbsp;&nbsp; <b>Time: </b>03:00pm&nbsp;&nbsp;&nbsp;&nbsp; <b>Type of interview: </b>Telephonic
+                    
+                            </div>
+                          </div>
+                      </li>
+                      <li class="notification">
+                          <div class="media">
+                            <div class="media-left">
+                              <div class="media-object">
+                                <img src="../img/users/user3.jpg" class="img-circle" alt="Jacqueline Sharma">
+                              </div>
+                            </div>
+                            <div class="media-body">
+                               <h6><b>Jacqueline Sharma</b></h6>
+                                  <b>Location: </b>Mumbai&nbsp;&nbsp;&nbsp;&nbsp; <b>Time: </b>01:00pm&nbsp;&nbsp;&nbsp;&nbsp; <b>Type of interview: </b>Video conference 
+                    
+                            </div>
+                          </div>
+                      </li>
+                      </ul> 
+
+            </div>
+            <!-- start tab pan SelectedCandidates-->
+            <div class="tab-pane " id="SelectedCandidates">
+              <div class="row mb-3">
+                  <div class="col"><h6><b>Selected Candidates</b></h6></div>
+                  <div class="col text-right"><a href="selected-candidates.html" class="btn-sm btn-link">View all</a> </div>
+                </div>
+                  
+                <ul class="list-unstyled">
+                <li class="notification">
+                          <div class="media">
+                            <div class="media-left">
+                              <div class="media-object">
+                                <img src="../img/users/user3.jpg" class="img-circle" alt="user">
+                              </div>
+                            </div>
+                            <div class="media-body">
+                               <h6><b>Jacqueline Sharma</b></h6>
+                                  <b>Position: </b>Pilot&nbsp;&nbsp;&nbsp;&nbsp; <b>Offer accepted date: </b>25 Jan,2021
+                            </div>
+                          </div>
+                      </li>
+                      <li class="notification">
+                          <div class="media">
+                            <div class="media-left">
+                              <div class="media-object">
+                                <img src="../img/users/user2.jpg" class="img-circle" alt="user">
+                              </div>
+                            </div>
+                            <div class="media-body">
+                               <h6><b>Jonny Doe</b></h6>
+                                  <b>Position: </b>Pilot&nbsp;&nbsp;&nbsp;&nbsp; <b>Offer accepted date: </b>23 Jan,2021
+                            </div>
+                          </div>
+                      </li>
+                      <li class="notification">
+                          <div class="media">
+                            <div class="media-left">
+                              <div class="media-object">
+                                <img src="../img/users/user1.jpg" class="img-circle" alt="user">
+                              </div>
+                            </div>
+                            <div class="media-body">
+                               <h6><b>john Doe</b></h6>
+                                  <b>Position: </b>Pilot&nbsp;&nbsp;&nbsp;&nbsp; <b>Offer accepted date: </b>20 Jan,2021
+                            </div>
+                          </div>
+                      </li>
+                      </ul>  
+
+            </div>
+            <!-- start tab pan DeclienedCandidates-->
+            <div class="tab-pane" id="DeclienedCandidates">
+              <div class="row mb-3">
+                  <div class="col"><h6><b>Declined Candidates</b></h6> </div>
+                  <div class="col text-right"><a href="Declined-candidates.html"  class=" btn-sm btn-link"> View all</a> </div>
+                </div>
+                 
+                <ul class="list-unstyled">
+                <li class="notification">
+                          <div class="media">
+                            <div class="media-left">
+                              <div class="media-object">
+                                <img src="../img/users/user4.jpg" class="img-circle" alt="user">
+                              </div>
+                            </div>
+                            <div class="media-body">
+                               <h6><b>Rahul Sinha</b></h6>
+                                  <b>Decline by: </b>Rahul Sinha&nbsp;&nbsp;&nbsp;&nbsp; <b>Decline date: </b>20 Jan,2021&nbsp;&nbsp;&nbsp;&nbsp;<b>Comment: </b> Lorem ipsum 
+                            </div>
+                          </div>
+                      </li>
+                      <li class="notification">
+                          <div class="media">
+                            <div class="media-left">
+                              <div class="media-object">
+                                <img src="../img/users/user3.jpg" class="img-circle" alt="user">
+                              </div>
+                            </div>
+                            <div class="media-body">
+                               <h6><b>Jacqueline Sharma</b></h6>
+                                  <b>Decline by: </b>Rahul Sinha&nbsp;&nbsp;&nbsp;&nbsp; <b>Decline date: </b>20 Jan,2021&nbsp;&nbsp;&nbsp;&nbsp;<b>Comment: </b> Lorem ipsum 
+                            </div>
+                          </div>
+                      </li>
+                      <li class="notification">
+                          <div class="media">
+                            <div class="media-left">
+                              <div class="media-object">
+                                <img src="../img/users/user2.jpg" class="img-circle" alt="user">
+                              </div>
+                            </div>
+                            <div class="media-body">
+                               <h6><b>john Doe</b></h6>
+                                  <b>Decline by: </b>Rahul Sinha&nbsp;&nbsp;&nbsp;&nbsp; <b>Decline date: </b>20 Jan,2021&nbsp;&nbsp;&nbsp;&nbsp;<b>Comment: </b> Lorem ipsum 
+                            </div>
+                          </div>
+                      </li>
+
+                      </ul>  
+
+            </div>
+            <!-- end tab pan DeclienedCandidates-->
+          </div>
+          <!-- end tab-content -->
+           
+        </div>
+
+</div>
+<!-- end  row -->
+  
+       <!-- start the Schedule Interview modal -->
+        <div class="modal fade" id="Schedule" role="dialog">
+          <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Employer/Recruiter can schedule an interview with the candidate</h5>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+        <div class="form-group form-row">
+          <div class="col-md-4"><label>Interviewer name</label>
+          <input type="text" class="form-control" name="" placeholder="John Doe" readonly="text">
+          </div>
+          <div class="col-md-4"><label>Time</label>
+            <input type="text" class="form-control" name="" placeholder="04:00pm" readonly="text">
+          </div>
+          <div class="col-md-4"><label>Duration</label>
+              <select class="form-control">
+                      <option value="0" selected>-- Select --</option>
+                      <option value="1">55 Minutes</option>
+                      <option value="2">45 Minutes</option>
+                      <option value="3">30 Minutes</option>
+                    </select>
+              </div>  
+            </div>
+            <div class="form-group form-row">
+          <div class="col-md-4"><label>Time Slot </label>
+              <select class="form-control">
+                      <option value="0" selected>-- Select --</option>
+                      <option value="1">11:00am to 02:00pm</option>
+                      <option value="2">01:00am to 03:30pm</option>
+                      <option value="3">04:00am to 06:00pm</option>
+                    </select>
+              </div>
+              <div class="col-md-4"><label>Interview type </label>
+              <select class="form-control">
+                      <option value="0" selected>-- Select --</option>
+                      <option value="1">F2f</option>
+                      <option value="2">Telephonic</option>
+                      <option value="3">Video conference </option>
+                      <option value="4">Other</option>
+                    </select>
+              </div>  
+            </div> 
+            <div class="form-group">
+            <label>Comments</label>
+            <textarea class="form-control" placeholder="Type here..."></textarea>
+            </div>
+              </div>
+              <div class="modal-footer">
+                <a href="upcoming-interview.html" type="button" class="btn-sm btn-primary">Schedule Interview </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end Change the Schedule Interview method -->
+
+          <!-- start the final offer modal -->
+        <div class="modal fade" id="finaloffer" role="dialog">
+          <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Final offer</h5>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+        <div class="form-group form-row">
+          <div class="col-md-4"><label>Job title</label>
+          <input type="text" class="form-control" name="" placeholder="John Doe">
+          </div>
+          <div class="col-md-4"><label>Location</label>
+            <select class="form-control">
+                         <option value="0" selected>-- Select --</option>
+                          <option value="1">Delhi</option>
+                          <option value="2">Mumbai</option>
+                          <option value="2">Tokyo</option>
+                          <option value="2">Chennai</option>
+                        </select>
+          </div>
+          <div class="col-md-4"><label>Currency </label>
+              <select class="form-control">
+                      <option value="0" selected>-- Select --</option>
+                      <option value="1">USD</option>
+                      <option value="2">Euro</option>
+                      <option value="3">Rupees</option>
+                    </select>
+              </div>  
+            </div>
+            <div class="form-group form-row">
+          <div class="col-md-4"><label>Base Salary (Annual) </label>
+              <select class="form-control">
+                      <option value="0" selected>-- Select --</option>
+                      <option value="1">850000</option>
+                      <option value="2">750000</option>
+                      <option value="3">650000</option>
+                    </select>
+              </div>
+              <div class="col-md-4"><label>Bonus </label>
+              <select class="form-control">
+                      <option value="0" selected>-- Select --</option>
+                      <option value="1">10000</option>
+                      <option value="2">8000</option>
+                      <option value="3">7000</option>
+                      <option value="4">6000</option>
+                    </select>
+              </div> 
+              <div class="col-md-4"><label>Long term incentives</label>
+              <select class="form-control">
+                      <option value="0" selected>-- Select --</option>
+                      <option value="1">10000</option>
+                      <option value="2">8000</option>
+                      <option value="3">7000</option>
+                      <option value="4">6000</option>
+                    </select>
+              </div>  
+            </div>
+            <div class="form-group ">
+            <div class="checkbox-fade fade-in-primary">
+                        <label>
+                            <input type="checkbox" class="parentCheckBox" value="">
+                            <span class="cr">
+                                <i class="cr-icon ik ik-check txt-primary"></i>
+                            </span>
+                            <span>Relocation Package Provided</span>
+                        </label>
+                    </div>
+             </div>
+             <div class="form-group ">
+            <label>Any special</label>
+            <textarea class="form-control" placeholder="Type here..."></textarea>
+             </div>
+              </div>
+              <div class="modal-footer">
+                <a href="upcoming-interview.html" type="button" class="btn-sm btn-primary">Schedule Interview </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end Change the Schedule Interview method --> 
+
+        <!-- Modal Decline -->
+        <div class="modal fade" id="declineOffer" role="dialog">
+          <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Why you declining the offer </h5>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <form class="forms-sample">
+                  <div class="form-group">
+                    <label>Choose Reason </label>
+                  <select class="form-control">
+                   <option class="selected">-- Select --</option>
+                   <option>Reason 01</option>
+                   <option>Reason 02</option>
+                   <option>Reason 03</option>
+
+              </select>
+                  </div>
+                  <div class="form-group">
+                    <label>Comments if any</label>
+                    <textarea class="form-control" placeholder="Type here..."></textarea>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-sm btn-primary">Send</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- end Modal Decline --> 
+
+        <!-- Modal CounterDetails -->
+        <div class="modal fade" id="CounterDetails" role="dialog">
+          <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Countered Offer</h5>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <h6><strong>Countered Offer Details </strong></h6>
+                <div class="row mb-10">
+                  <div class="col-md-4">Position<br> <strong>Senior Pilot</strong></div>
+                  <div class="col-md-4">Location, <br> <strong>Delhi</strong></div>
+                  <div class="col-md-4">Counter salary details<br> <strong>----</strong></div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4">Reason for counter<br> <strong>----</strong></div>
+                  <div class="col-md-4">Sffer salary details<br> <strong>----</strong></div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-sm btn-default" data-toggle="modal" data-target="#Reasonfordecline">Decline</button>
+                
+
+                <button type="button" class="btn btn-sm btn-primary">Accept</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- end Modal CounterDetails --> 
+        <!-- Modal Reasonfordecline -->
+        <div class="modal fade" id="Reasonfordecline" role="dialog">
+          <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Why you declining the offer </h5>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                   <div class="form-group">
+                    <label>Reason for declining </label>
+                    <textarea class="form-control" placeholder="Type here..."></textarea>
+                  </div>
+
+              </div>
+              <div class="modal-footer">
+                <a href="declined-candidates.html" type="button" class="btn btn-sm btn-primary">Save</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- end Modal Reasonfordecline --> 
+    
+
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="w-100 clearfix"> <span class="text-center text-sm-left d-md-inline-block">Copyright © 2021 Oysterwings.</span> <span class="float-none float-sm-right mt-1 mt-sm-0 text-center"><a href="https://www.digitalsolutions.co.in/" class="text-dark" target="_blank"><img src="../img/powered-by.png" /></a></span> </div>
+    </footer>
+  </div>
+</div>
+<script>window.jQuery || document.write('<script src="../src/js/vendor/jquery-3.3.1.min.js"><\/script>')</script> 
+<script src="../plugins/popper.js/dist/umd/popper.min.js"></script> 
+<script src="../plugins/bootstrap/dist/js/bootstrap.min.js"></script> 
+<script src="../plugins/perfect-scrollbar/dist/perfect-scrollbar.min.js"></script> 
+<script src="../plugins/screenfull/dist/screenfull.js"></script> 
+<script src="../dist/js/theme.min.js"></script> 
+<link rel="stylesheet" href="../dist/css/bootstrap-multiselect.css">
+<script type="text/javascript" src="../dist/js/bootstrap-multiselect.js"></script> 
+<script type="text/javascript">
+$(document).ready(function() {
+  $('.multiselect').multiselect({
+    enableFiltering: true,
+    includeSelectAllOption: true,
+    maxHeight: 400,
+    buttonWidth: '100%'
+  });
+ 
+  
+});
+</script>
+<script type="text/javascript">
+    var currentTab = 0;
+    $(function () {
+        $("#tabs").tabs({
+        select: function (e, i) {
+            currentTab = i.index;
+            }
+        });
+    });
+    $("#btnNext").live("click", function () {
+        var tabs = $('#tabs').tabs();
+        var c = $('#tabs').tabs("length");
+        currentTab = currentTab == (c - 1) ? currentTab : (currentTab + 1);
+        tabs.tabs('select', currentTab);
+        $("#btnPrevious").show();
+            if (currentTab == (c - 1)) {
+                $("#btnNext").hide();
+            } else {
+                $("#btnNext").show();
+            }
+    });
+    $("#btnPrevious").live("click", function () {
+        var tabs = $('#tabs').tabs();
+        var c = $('#tabs').tabs("length");
+        currentTab = currentTab == 0 ? currentTab : (currentTab - 1);
+        tabs.tabs('select', currentTab);
+            if (currentTab == 0) {
+                $("#btnNext").show();
+                $("#btnPrevious").hide();
+            }
+            if (currentTab < (c - 1)) {
+                $("#btnNext").show();
+            }
+    });
+</script> 
+</body>
+</html>

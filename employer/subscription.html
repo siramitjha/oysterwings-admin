@@ -1,0 +1,352 @@
+<!DOCTYPE HTML>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>My Subscription | Oysterwings</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="../favicon.png">
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800" rel="stylesheet">
+<link rel="stylesheet" href="../plugins/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="../plugins/fontawesome/fontawesome-free/css/all.min.css">
+<link rel="stylesheet" href="../plugins/icon-kit/dist/css/iconkit.min.css">
+<link rel="stylesheet" href="../plugins/ionicons/dist/css/ionicons.min.css">
+<link rel="stylesheet" href="../plugins/perfect-scrollbar/css/perfect-scrollbar.css">
+<link rel="stylesheet" href="../dist/css/theme.min.css">
+<script src="../src/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+<!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div class="wrapper">
+  <header class="header-top" header-theme="light">
+    <div class="container-fluid">
+      <div class="d-flex justify-content-between">
+        <div class="top-menu d-flex align-items-center">
+          <button type="button" class="btn-icon mobile-nav-toggle d-lg-none"><span></span></button>
+          <div class="header-search">
+            <div class="input-group"> <span class="input-group-addon search-close"><i class="ik ik-x"></i></span>
+              <input type="text" class="form-control">
+              <span class="input-group-addon search-btn"><i class="ik ik-search"></i></span> </div>
+          </div>
+          <button type="button" id="navbar-fullscreen" class="nav-link"><i class="ik ik-maximize"></i></button>
+        </div>
+        <div class="top-menu d-flex align-items-center">
+          <div class="dropdown"> <a class="nav-link dropdown-toggle" href="#" id="notiDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="ik ik-bell"></i><span class="badge bg-danger">3</span></a>
+            <div class="dropdown-menu dropdown-menu-right notification-dropdown" aria-labelledby="notiDropdown">
+              <h4 class="header">Notifications</h4>
+              <div class="notifications-wrap"> <a href="#" class="media"> <span class="d-flex"> <i class="ik ik-check"></i> </span> <span class="media-body"> <span class="heading-font-family media-heading">Invitation accepted</span> <span class="media-content">Your have been Invited ...</span> </span> </a> <a href="#" class="media"> <span class="d-flex"> <img src="../img/air-india3.jpg" class="rounded-circle" alt=""> </span> <span class="media-body"> <span class="heading-font-family media-heading">Air India</span> <span class="media-content">Meeting with Rahul on Friday 10 AM</span> </span> </a> <a href="#" class="media"> <span class="d-flex"> <i class="ik ik-calendar"></i> </span> <span class="media-body"> <span class="heading-font-family media-heading">To Do</span> <span class="media-content">Meeting with Nathan on Saturday 9 AM ...</span> </span> </a> </div>
+              <div class="footer"><a href="notification.html">See all activity</a></div>
+            </div>
+          </div>
+          <div class="dropdown"> <a class="dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>John Doe &nbsp;</span><img class="avatar" src="../img/user2.jpg" alt=""></a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown"> <a class="dropdown-item" href="profile.html"><i class="ik ik-user dropdown-icon"></i>View Profile</a><a class="dropdown-item" href="change-password.html"><i class="ik ik-lock dropdown-icon"></i>Change Password</a> <a class="dropdown-item" href="login.html"><i class="ik ik-power dropdown-icon"></i> Logout</a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <style>.clr {color:#00b4ff;}</style>
+  <div class="page-wrap">
+    <div class="app-sidebar colored">
+      <div class="sidebar-header"> <a class="header-brand" href="index.html">
+        <div class="logo-img"> <img src="../img/logo.png" class="header-brand-img" alt="Oysterwings" /> <span class="text">Oysterwings</span></div>
+        </a>
+        <button type="button" class="nav-toggle"><i data-toggle="expanded" class="ik ik-toggle-right toggle-icon"></i></button>
+        <button id="sidebarClose" class="nav-close"><i class="ik ik-x"></i></button>
+      </div>
+      <div class="sidebar-content">
+        <div class="nav-container">
+          <nav id="main-menu-navigation" class="navigation-main">
+            <div class="nav-lavel">Navigation</div>
+            <div class="nav-item"> <a href="index.html"><i class="ik ik-bar-chart-2"></i><span>Dashboard</span></a> </div>
+            <div class="nav-item"> <a href="complete-profile.html"><i class="ik ik-user"></i><span>Complete Profile</span></a> </div>
+            <div class="nav-item"> <a href="jobs.html"><i class="ik ik-user-check"></i><span>Jobs</span></a> </div>
+            <div class="nav-item"> <a href="search.html"><i class="ik ik-search"></i><span>Oysterwings Search</span></a> </div>
+            <div class="nav-item"> <a href="my-conversations.html#lastli"><i class="ik ik-message-circle"></i><span>My Conversations</span> <span class="badge badge-danger">3</span></a> </div>
+            <div class="nav-item"> <a href="interviews.html"><i class="fa fa-question"></i> <span>Interviews</span></a> </div>
+            <div class="nav-item"> <a href="notification.html"><i class="ik ik-bell"></i> <span>Notification</span></a></div>
+            <div class="nav-item"> <a href="subscription.html"><i class="ik ik-list"></i> <span>My Subscription</span></a></div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="container-fluid">
+         <div class="page-header">
+            <div class="row align-items-end">
+                <div class="col-lg-8" >
+                    <div class="page-header-title">
+                        <i class="ik ik-list bg-blue"></i>
+                       <div class="d-inline"><h5>My Subscription</h5></div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <nav class="breadcrumb-container" aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a href="index.html"><i class="ik ik-home"></i></a>
+                            </li>
+                            <li class="breadcrumb-item active" aria-current="page">My Subscription</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+           <div class="row clearfix justify-content-between">
+
+            <div class=" col-lg-10 col-md-8 col-sm-12">
+
+                <div class="card ">
+
+                
+                     <div class="card-body">
+
+                    <div class="row">
+                      <div class="col-md-8"><h5><b>Subscription Details</b></h5></div>
+                      <div class="col-md-4 d-flex float-right "><a href="#" type="button" class="btn-sm btn-primary mr-3"data-toggle="modal" data-target="#Changethesubscription">Subscription Method</a> <a href="#" type="button" class="btn-sm btn-danger" data-toggle="modal" data-target="#cancelsubscription">Cancel Subscription</a>
+                      </div>
+                    </div><hr>
+                       <h5><strong class="clr">Economy/Independents</strong></h5>
+                        <div class="form-group form-row mt-3 mb-3">
+                          <div class="col-md-2"><strong>Amount Paid:</strong><br>  $ 5000</div>
+                          <div class="col-md-4"><strong>Service period:</strong><br>   20 Jan ,2020 to 19 Jan ,2021 </div>
+                          <div class="col-md-3"><strong>Next billing cycle due:</strong><br>  $ 5000</div>
+                          <div class="col-md-3"><strong>Rupay Card last 4 digit:</strong><br>   5462</div>
+                        </div> 
+                       
+
+                     </div>     
+            </div>
+          </div>
+         
+          
+        </div> 
+          
+    
+
+
+        <!-- Change the subscription method -->
+        <div class="modal fade" id="Changethesubscription" role="dialog">
+          <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Your Card Details</h5>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <h6><b>Your saved credit and debit cards</b></h6>
+                <div class="table-responsive">
+                      <table class="table table-sm table-hover table-striped table-bordered" id="hoverTable">
+                        <thead>
+                          <tr>
+                            <th></th>
+                            <th>Card Name</th>
+                            <th>Name on card</th>
+                            <th>Expires on</th>
+                            <th>Action</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td><input type="checkbox" name=""> </td>
+                            <td>Rupay Card <small>ending in 5462</small> </td>
+                            <td>User Name</td>
+                            <td>01/2025</td>
+                            <td><div class="text-center"><a href="#" class="text-danger"><i class="fa fa-trash-alt"></i></div></td>  
+                          </tr>
+                          <tr>
+                            <td><input type="checkbox" name=""> </td>
+                            <td>Visa Card <small>ending in 5883</small></td>
+                            <td>User Name2</td>
+                            <td>12/2024</td>
+                            <td><div class="text-center"><a href="#" class="text-danger"><i class="fa fa-trash-alt"></i></div></td>
+                            
+                           </tr>
+                           <tr>
+                            <td><input type="checkbox" name=""> </td>
+                            <td>Pay Pal Card <small>ending in 6843</small></td>
+                            <td>User Name3</td>
+                            <td>15/2026</td>
+                            <td><div class="text-center"><a href="#" class="text-danger"><i class="fa fa-trash-alt"></i></div></td>
+                           </tr>
+                        </tbody>
+                      </table>
+                      <div class="text-right"> <a href="#" class="btn btn-sm btn-outline-primary">Set Default</a></div>
+                    </div>
+                  <h6><b>Add New Card</b></h6>
+        <div class="form-group">
+          <label>Card Number</label>
+              <input type="text" class="form-control" placeholder="5000 0000 0000 0000">
+            </div>
+        <div class="form-group form-row">
+          <div class="col-md-5">
+          <label>Name on the card </label>
+              <input type="text" class="form-control" placeholder="User Name">
+        </div>
+        <div class="col-md-5">
+                        <label>Expiry Date</label>
+                        <div class="row">
+                          <div class="col-md-6">
+                            <select class="form-control">
+                              <option value="0" selected="">- Month -</option>
+                              <option value="1">Jan</option>
+                              <option value="2">Feb</option>
+                              <option value="3">Mar</option>
+                              <option value="4">Apr</option>
+                              <option value="5">May</option>
+                              <option value="6">Jun</option>
+                              <option value="7">Jul</option>
+                              <option value="8">Aug</option>
+                              <option value="9">Sep</option>
+                              <option value="10">Oct</option>
+                              <option value="11">Nov</option>
+                              <option value="12">Dec</option>
+                            </select>
+                          </div>
+                          <div class="col-md-6">
+                            <select class="form-control">
+                              <option value="0" selected="">- Year -</option>
+                              <option value="2026">2026</option>
+                              <option value="2025">2025</option>
+                              <option value="2024">2024</option>
+                              <option value="2023">2023</option>
+                              <option value="2022">2022</option>
+                              <option value="2021">2021</option>       
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+          
+        <div class="col-md-2">
+          <label>CVV </label>
+              <input type="text" class="form-control" placeholder="025">
+        </div>
+      </div> 
+            <div class="form-group text-right">
+          <img src="../img/credit/mastercard.png"> <img src="../img/credit/paypal2.png"> <img src="../img/credit/visa.png">
+          </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn-sm btn-primary" data-dismiss="modal">Add New Card</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Change the subscription method -->  
+
+        <!-- Change the cancelsubscription method -->
+        <div class="modal fade" id="cancelsubscription" role="dialog">
+          <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Cancel Subscription</h5>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <div class="form-group">
+                  <label>Current Password</label>
+                  <input type="Password" name="" class="form-control" placeholder="Enter your current Password *">
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn-sm btn-primary"data-toggle="modal" data-target="#selectcancelsubscription" data-dismiss="modal">Send</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Change the cancelsubscription method -->
+        <div class="modal fade" id="selectcancelsubscription" role="dialog">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Cancel Subscription</h5>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                
+                	<div class="checkbox-fade fade-in-primary">
+                        <label>
+                            <input type="checkbox" class="confirmcancellationchk" value="">
+                            <span class="cr">
+                                <i class="cr-icon ik ik-check txt-primary"></i>
+                            </span>
+                            <strong>Your annual payment will not be refundable</strong>
+                        </label>
+                    </div> <br />
+                    
+                    <div class="checkbox-fade fade-in-primary">
+                        <label>
+                            <input type="checkbox" class="confirmcancellationchk" value="">
+                            <span class="cr">
+                                <i class="cr-icon ik ik-check txt-primary"></i>
+                            </span>
+                            <strong>You will not be able to search or connect with candidates</strong>
+                        </label>
+                    </div> <br />
+                    
+                    <div class="checkbox-fade fade-in-primary">
+                        <label>
+                            <input type="checkbox" class="confirmcancellationchk" value="">
+                            <span class="cr">
+                                <i class="cr-icon ik ik-check txt-primary"></i>
+                            </span>
+                            <strong>Your account will be deactivated and you will no longer be able to login</strong>
+                        </label>
+                    </div>
+                    
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-sm btn-primary" data-dismiss="modal" id="confirmcancellation" disabled="disabled">Confirm Cancellation</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Change the cancelsubscription method -->    
+
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="w-100 clearfix"> <span class="text-center text-sm-left d-md-inline-block">Copyright © 2021 Oysterwings.</span> <span class="float-none float-sm-right mt-1 mt-sm-0 text-center"><a href="https://www.digitalsolutions.co.in/" class="text-dark" target="_blank"><img src="../img/powered-by.png" /></a></span> </div>
+    </footer>
+  </div>
+</div>
+<script>window.jQuery || document.write('<script src="../src/js/vendor/jquery-3.3.1.min.js"><\/script>')</script> 
+<script src="../plugins/popper.js/dist/umd/popper.min.js"></script> 
+<script src="../plugins/bootstrap/dist/js/bootstrap.min.js"></script> 
+<script src="../plugins/perfect-scrollbar/dist/perfect-scrollbar.min.js"></script> 
+<script src="../plugins/screenfull/dist/screenfull.js"></script> 
+<script src="../dist/js/theme.min.js"></script> 
+<link rel="stylesheet" href="../dist/css/bootstrap-multiselect.css">
+<script type="text/javascript" src="../dist/js/bootstrap-multiselect.js"></script> 
+<script type="text/javascript">
+$(document).ready(function() {
+  $('.multiselect').multiselect({
+    enableFiltering: true,
+    includeSelectAllOption: true,
+    maxHeight: 400,
+    buttonWidth: '100%'
+  }); 
+
+  $(".confirmcancellationchk").on("click", function() {
+  if($(".confirmcancellationchk:checked").length > 2)
+  {
+  	$('#confirmcancellation').prop('disabled', false);
+  }
+  else
+  {
+  	$('#confirmcancellation').prop('disabled', true);
+  }  
+  });
+
+});
+</script> 
+</body>
+</html>

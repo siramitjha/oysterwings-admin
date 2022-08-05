@@ -1,0 +1,651 @@
+<!DOCTYPE HTML>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Create jobs | Oysterwings</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="../favicon.png">
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800" rel="stylesheet">
+<link rel="stylesheet" href="../plugins/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="../plugins/fontawesome/fontawesome-free/css/all.min.css">
+<link rel="stylesheet" href="../plugins/icon-kit/dist/css/iconkit.min.css">
+<link rel="stylesheet" href="../plugins/ionicons/dist/css/ionicons.min.css">
+<link rel="stylesheet" href="../plugins/perfect-scrollbar/css/perfect-scrollbar.css">
+<link rel="stylesheet" href="../dist/css/theme.min.css">
+<script src="../src/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+<!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div class="wrapper">
+  <header class="header-top" header-theme="light">
+    <div class="container-fluid">
+      <div class="d-flex justify-content-between">
+        <div class="top-menu d-flex align-items-center">
+          <button type="button" class="btn-icon mobile-nav-toggle d-lg-none"><span></span></button>
+          <div class="header-search">
+            <div class="input-group"> <span class="input-group-addon search-close"><i class="ik ik-x"></i></span>
+              <input type="text" class="form-control">
+              <span class="input-group-addon search-btn"><i class="ik ik-search"></i></span> </div>
+          </div>
+          <button type="button" id="navbar-fullscreen" class="nav-link"><i class="ik ik-maximize"></i></button>
+        </div>
+        <div class="top-menu d-flex align-items-center">
+          <div class="dropdown"> <a class="nav-link dropdown-toggle" href="#" id="notiDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="ik ik-bell"></i><span class="badge bg-danger">3</span></a>
+            <div class="dropdown-menu dropdown-menu-right notification-dropdown" aria-labelledby="notiDropdown">
+              <h4 class="header">Notifications</h4>
+              <div class="notifications-wrap"> <a href="#" class="media"> <span class="d-flex"> <i class="ik ik-check"></i> </span> <span class="media-body"> <span class="heading-font-family media-heading">Invitation accepted</span> <span class="media-content">Your have been Invited ...</span> </span> </a> <a href="#" class="media"> <span class="d-flex"> <img src="../img/air-india3.jpg" class="rounded-circle" alt=""> </span> <span class="media-body"> <span class="heading-font-family media-heading">Air India</span> <span class="media-content">Meeting with Rahul on Friday 10 AM</span> </span> </a> <a href="#" class="media"> <span class="d-flex"> <i class="ik ik-calendar"></i> </span> <span class="media-body"> <span class="heading-font-family media-heading">To Do</span> <span class="media-content">Meeting with Nathan on Saturday 9 AM ...</span> </span> </a> </div>
+              <div class="footer"><a href="notification.html">See all activity</a></div>
+            </div>
+          </div>
+          <div class="dropdown"> <a class="dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>John Doe &nbsp;</span><img class="avatar" src="../img/user2.jpg" alt=""></a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown"> <a class="dropdown-item" href="profile.html"><i class="ik ik-user dropdown-icon"></i>View Profile</a><a class="dropdown-item" href="change-password.html"><i class="ik ik-lock dropdown-icon"></i>Change Password</a> <a class="dropdown-item" href="login.html"><i class="ik ik-power dropdown-icon"></i> Logout</a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+ 
+  <div class="page-wrap">
+    <div class="app-sidebar colored">
+      <div class="sidebar-header"> <a class="header-brand" href="index.html">
+        <div class="logo-img"> <img src="../img/logo.png" class="header-brand-img" alt="Oysterwings" /> <span class="text">Oysterwings</span></div>
+        </a>
+        <button type="button" class="nav-toggle"><i data-toggle="expanded" class="ik ik-toggle-right toggle-icon"></i></button>
+        <button id="sidebarClose" class="nav-close"><i class="ik ik-x"></i></button>
+      </div>
+      <div class="sidebar-content">
+        <div class="nav-container">
+          <nav id="main-menu-navigation" class="navigation-main">
+            <div class="nav-lavel">Navigation</div>
+            <div class="nav-item"> <a href="index.html"><i class="ik ik-bar-chart-2"></i><span>Dashboard</span></a> </div>
+            <div class="nav-item"> <a href="complete-profile.html"><i class="ik ik-user"></i><span>Complete Profile</span></a> </div>
+            <div class="nav-item"> <a href="jobs.html"><i class="ik ik-user-check"></i><span>Jobs</span></a> </div>
+            <div class="nav-item"> <a href="search.html"><i class="ik ik-search"></i><span>Oysterwings Search</span></a> </div>
+            <div class="nav-item"> <a href="my-conversations.html#lastli"><i class="ik ik-message-circle"></i><span>My Conversations</span> <span class="badge badge-danger">3</span></a> </div>
+            <div class="nav-item"> <a href="interviews.html"><i class="fa fa-question"></i> <span>Interviews</span></a> </div>
+            <div class="nav-item"> <a href="notification.html"><i class="ik ik-bell"></i> <span>Notification</span></a></div>
+            <div class="nav-item"> <a href="subscription.html"><i class="ik ik-list"></i> <span>My Subscription</span></a></div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="container-fluid">
+         <div class="page-header">
+            <div class="row align-items-end">
+                <div class="col-lg-8" >
+                    <div class="page-header-title">
+                        <i class="ik ik-user-check bg-blue"></i>
+                       <div class="d-inline"><h5>Create jobs</h5></div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <nav class="breadcrumb-container" aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a href="index.html"><i class="ik ik-home"></i></a>
+                            </li>
+                            <li class="breadcrumb-item active" aria-current="page">Create jobs</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        
+           <div class="row clearfix justify-content-between">
+
+            <div class="col-xl-12">
+
+                <div class="card ">
+                     <div class="card-body">
+                      <ul class="nav nav-tabs">
+              <li class="nav-item"> <a href="" data-target="#tabbasicjob" data-toggle="tab" class="nav-link active"  id="tab1">Basic Job details</a> </li>
+              <li class="nav-item"> <a href="" data-target="#jobdescription" data-toggle="tab" class="nav-link" id="tab2">Job Description</a> </li>
+              <li class="nav-item"> <a href="" data-target="#keyexperiences" data-toggle="tab" class="nav-link" id="tab3">Key Experiences</a> </li>
+              <li class="nav-item"> <a href="" data-target="#changeexperiences" data-toggle="tab" class="nav-link" id="tab4">Change Experiences </a> </li>
+              <li class="nav-item"> <a href="" data-target="#keystrength" data-toggle="tab" class="nav-link" id="tab5">Strength Developments </a> </li>
+              <li class="nav-item"> <a href="" data-target="#Proposedcompensation" data-toggle="tab" class="nav-link" id="tab6">Proposed Compensation </a> </li>
+            </ul>
+              <div class="tab-content py-4">
+            <div class="tab-pane active" id="tabbasicjob">
+                <h5 class="mb-3"><strong>Basic Job details</strong></h5>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="form-group form-row">
+                      <div class="col-md-4">
+                        <label>Organizational Level</label>
+                    <select class="form-control">
+                      <option value="0" selected>-- Select --</option>
+                      <option value="1">X1</option>
+                      <option value="2">X2</option>
+                      <option value="3">X3</option>
+                    </select>
+                      </div>
+                      <div class="col-md-4">
+                        <label>Job Title</label>
+                    <select class="form-control singleselect">
+                      <option value="0" selected>-- Select --</option>
+                      <option value="1">Senior Flight Attendant</option>
+                      <option value="2">Pilot</option>
+                      <option value="3">Flight Attendant</option>
+                    </select>
+                      </div>
+                      <div class="col-md-4">
+                        <label>Location</label>
+                    <select class="form-control singleselect">
+                          <option value="1">Delhi</option>
+                          <option value="2">Mumbai</option>
+                          <option value="3">Tokyo</option>
+                          <option value="4">Chennai</option>
+                    </select>
+                      </div> 
+                      
+                    </div>
+                    <div class="form-group form-row">
+                      <div class="col-md-4">
+                      <label>Function</label>
+                    <select class="form-control singleselect">
+                      <option value="0" selected>-- Select --</option>
+                          <option value="1">Function 01</option>
+                          <option value="2">Function 02</option>
+                          <option value="3">Function 03</option>
+                          <option value="4">Function 04</option>
+                    </select>
+                    </div> 
+                    <div class="col-md-4">
+                      <label>Desired language</label>
+                    <select class="form-control multiselect" multiple> 
+                          <option value="1">English</option>
+                          <option value="2">French</option>
+                          <option value="3">Hindi</option>
+                          <option value="4">Arbi</option>
+                    </select>
+                    </div>
+                    <div class="col-md-4">
+                      <label>Level</label>
+                   <select class="form-control multiselect" multiple>
+                          <option value="1">Beginner</option>
+                          <option value="2">Intermediate</option>
+                          <option value="3">Advanced</option>
+                    </select>
+                    </div>
+                   </div>    
+                    <div class="form-group form-row">
+                     <div class="col-md-4">
+                      <label>Hiring team</label>
+                    <select class="form-control">
+                          <option value="0" selected>-- Select --</option>
+                          <option value="1">team 01</option>
+                          <option value="2">team 02</option>
+                          <option value="3">team 03</option>
+                          <option value="4">team 04</option>
+                    </select>
+                    </div>
+                     <div class="col-md-4">
+                      <label>Type of job </label>
+                    <select class="form-control">
+                          <option value="0" selected>-- Select --</option>
+                          <option value="1">Full Time</option>
+                          <option value="2">Part Time</option>
+
+                    </select>
+                    </div>
+                    </div>
+                  </div>
+                 
+                </div>
+                <div class="text-right">
+                <button class="btn btn-sm btn-success">Save </button>
+                <a href="#" class="btn btn-sm btn-primary" id="btnNext">Save & next</a></div>
+              </div>
+
+              <!-- start tab pan jobdescription-->
+                  <div class="tab-pane" id="jobdescription">
+                <h5 class="mb-3"><strong>Job description  </strong></h5>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="form-group form-row">
+                      <div class="col-md-3">
+                        <label>Select experience in aviation</label>
+                           <select class="form-control multiselect" multiple>
+                          <option value="1">5 years</option>
+                          <option value="2">10 years</option>
+                          <option value="3">15 years</option>
+                          <option value="4">20 years</option>
+                    </select>
+                      </div>
+                      <div class="col-md-3">
+                        <label>Key market experience </label>
+                         <select class="form-control multiselect" multiple>
+                          <option value="1">Experience 01 </option>
+                          <option value="2">Experience 02 </option>
+                          <option value="3">Experience 03 </option>
+                          <option value="4">Experience 04 </option>
+                    </select>
+                      </div>
+                      
+                     </div>
+                     <div class="form-group">
+                       <label>Job description</label>
+                       <textarea class="form-control" rows="7" placeholder="Type here"></textarea>
+                     </div>
+                   </div>
+                </div>
+                <div class="row">
+                  <div class="col"><button class="btn btn-sm btn-secondary" id="btnPrevious">Previous</button></div>
+                  <div class="col text-right"><a type="button" href="#" id="btnNext" class="btn btn-sm btn-primary">Save & next  </a></div></div>
+              
+                
+              </div>
+              <!-- start tab pan keyexperiences-->
+                  <div class="tab-pane" id="keyexperiences">
+                <h5 class="mb-3"><strong>Desired key Experiences  </strong></h5>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="form-group form-row">
+                      <div class="col-md-3">
+                        <label>Airline type </label>
+                        <select class="form-control">
+                          <option value="0" selected>-- Select --</option>
+                          <option value="1">Major airlines</option>
+                          <option value="2">National airlines</option>
+                          <option value="3">Regional airlines</option>
+                        </select>
+                      
+                      </div>
+                      <div class="col-md-3">
+                        <label>Hotel size </label>
+                         <select class="form-control multiselect" multiple>
+                          <option value="1">Small hotel </option>
+                          <option value="2">Medium hotel </option>
+                          <option value="3">Big hotel </option>
+                    </select>
+                      </div>
+                      <div class="col-md-3">
+                        <label>Brand Segment Experience </label>
+                           <select class="form-control multiselect" multiple>
+                          <option value="1">Demographic </option>
+                          <option value="2">Psychographic</option>
+                          <option value="3">Behavioral</option>
+                          <option value="4">Geographic</option>
+                    </select>
+                      </div>
+
+                      <div class="col-md-3">
+                        <label>Ownership </label>
+                        <select class="form-control multiselect" multiple>
+                          <option value="1">Ownership 01 </option>
+                          <option value="2">Ownership 02</option>
+                          <option value="3">Ownership 03</option>
+                          <option value="4">Ownership 04</option>
+                    </select>
+                      
+                      </div>
+                     </div>
+
+                     <div class="form-group form-row">
+                      <div class="col-md-3">
+                        <label>Real Estate type </label>
+                        <select class="form-control multiselect" multiple>
+                          <option value="1">Real Estate 01 </option>
+                          <option value="2">Real Estate 02</option>
+                          <option value="3">Real Estate 03</option>
+                          <option value="4">Real Estate 04</option>
+                    </select>
+                      
+                      </div>
+                      <div class="col-md-3">
+                        <label>Brand Experience  </label>
+                         <select class="form-control multiselect" multiple>
+                          <option value="1">Brand Experience 01 </option>
+                          <option value="2">Brand Experience 02</option>
+                          <option value="3">Brand Experience 03</option>
+                          <option value="4">Brand Experience 04</option>
+                    </select>
+                      </div>
+
+                      <div class="col-md-3">
+                        <label>Union Status  </label>
+                        <select class="form-control singleselect">
+                          <option value="0" selected>-- Select --</option>
+                          <option value="1">Union Status 01 </option>
+                          <option value="2">Union Status 02</option>
+                          <option value="3">Union Status 03</option>
+                          <option value="4">Union Status 04</option>
+                    </select>
+                      
+                      </div>
+                      <div class="col-md-3">
+                        <label>Geographies</label>
+                        <select class="form-control multiselect" multiple>
+                          <option value="1">Geographies 01 </option>
+                          <option value="2">Geographies 02</option>
+                          <option value="3">Geographies 03</option>
+                          <option value="4">Geographies 04</option>
+                    </select>
+                      
+                      </div>
+                     </div> 
+
+                   </div>
+                </div>
+                <div class="row">
+                  <div class="col"><button class="btn btn-sm btn-secondary" id="btnPrevious">Previous</button></div>
+                  <div class="col text-right"><a type="button" href="#" class="btn btn-sm btn-primary" id="btnNext">Save & next  </a></div></div>
+              
+                
+              </div>
+               
+               
+              <!-- start tab pan changeexperiences-->
+                  <div class="tab-pane" id="changeexperiences">
+                <h5 class="mb-3"><strong>Desired Change Experiences  </strong></h5>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="form-group form-row">
+                      <div class="col-md-3">
+                      <label>Pre-opening</label>
+                      <br>
+                      <div class="form-radio mb-30">
+                        <div class="radio radiofill radio-primary radio-inline">
+                            <label>
+                                <input type="radio" name="relocate">
+                                <i class="helper"></i>Yes
+                            </label>
+                        </div>
+                         <div class="radio radiofill radio-primary radio-inline">
+                            <label>
+                                <input type="radio" name="relocate">
+                                <i class="helper"></i>No
+                            </label>
+                        </div>
+                       </div>
+                      
+                      </div>
+                      <div class="col-md-3">
+                        <label>Rebranding </label>
+                      <br>
+                      <div class="form-radio mb-30">
+                        <div class="radio radiofill radio-primary radio-inline">
+                            <label>
+                                <input type="radio" name="relocate">
+                                <i class="helper"></i>Yes
+                            </label>
+                        </div>
+                         <div class="radio radiofill radio-primary radio-inline">
+                            <label>
+                                <input type="radio" name="relocate">
+                                <i class="helper"></i>No
+                            </label>
+                        </div>
+                       </div>
+                      </div>
+                      <div class="col-md-3">
+                        <label>Renovation </label>
+                      <br>
+                      <div class="form-radio mb-30">
+                        <div class="radio radiofill radio-primary radio-inline">
+                            <label>
+                                <input type="radio" name="relocate">
+                                <i class="helper"></i>Yes
+                            </label>
+                        </div>
+                         <div class="radio radiofill radio-primary radio-inline">
+                            <label>
+                                <input type="radio" name="relocate">
+                                <i class="helper"></i>No
+                            </label>
+                        </div>
+                       </div>
+                      </div>
+                      <div class="col-md-3">
+                       <label>Ownership changes </label>
+                      <br>
+                      <div class="form-radio mb-30">
+                        <div class="radio radiofill radio-primary radio-inline">
+                            <label>
+                                <input type="radio" name="relocate">
+                                <i class="helper"></i>Yes
+                            </label>
+                        </div>
+                         <div class="radio radiofill radio-primary radio-inline">
+                            <label>
+                                <input type="radio" name="relocate">
+                                <i class="helper"></i>No
+                            </label>
+                        </div>
+                       </div>
+                      </div>
+                     </div>
+
+                     <div class="form-group form-row">
+                      <div class="col-md-3">
+                      <label>Mergers & Acquisitions</label>
+                      <br>
+                      <div class="form-radio mb-30">
+                        <div class="radio radiofill radio-primary radio-inline">
+                            <label>
+                                <input type="radio" name="relocate">
+                                <i class="helper"></i>Yes
+                            </label>
+                        </div>
+                         <div class="radio radiofill radio-primary radio-inline">
+                            <label>
+                                <input type="radio" name="relocate">
+                                <i class="helper"></i>No
+                            </label>
+                        </div>
+                       </div>
+                      
+                      </div>
+                      <div class="col-md-3">
+                        <label>Reorganization  </label>
+                      <br>
+                      <div class="form-radio mb-30">
+                        <div class="radio radiofill radio-primary radio-inline">
+                            <label>
+                                <input type="radio" name="relocate">
+                                <i class="helper"></i>Yes
+                            </label>
+                        </div>
+                         <div class="radio radiofill radio-primary radio-inline">
+                            <label>
+                                <input type="radio" name="relocate">
+                                <i class="helper"></i>No
+                            </label>
+                        </div>
+                       </div>
+                      </div>
+                      <div class="col-md-3">
+                        <label>Key Strategic Initiatives  </label>
+                      <br>
+                      <div class="form-radio mb-30">
+                        <div class="radio radiofill radio-primary radio-inline">
+                            <label>
+                                <input type="radio" name="relocate">
+                                <i class="helper"></i>Yes
+                            </label>
+                        </div>
+                         <div class="radio radiofill radio-primary radio-inline">
+                            <label>
+                                <input type="radio" name="relocate">
+                                <i class="helper"></i>No
+                            </label>
+                        </div>
+                       </div>
+                      </div>
+                      
+                     </div>
+
+                   </div>
+                </div>
+                <div class="row">
+                  <div class="col"><button class="btn btn-sm btn-secondary" id="btnPrevious">Previous</button></div>
+                  <div class="col text-right"><a type="button" href="#" class="btn btn-sm btn-primary" id="btnNext">Save & next  </a></div></div>
+              
+                
+              </div>
+               
+               <!-- start tab pan keystrength-->
+                  <div class="tab-pane" id="keystrength">
+                <h5 class="mb-3"><strong>Key strength developments </strong></h5>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="form-group form-row">
+                      <div class="col-md-3">
+                        <label>Select area of expertise </label>
+                      <select class="form-control multiselect" multiple>
+                      <option value="1">Area 01</option>
+                      <option value="2">Area 02</option>
+                      <option value="3">Area 03</option>
+                    </select>
+                      </div>
+                      <div class="col-md-3">
+                        <label>Other strengths</label>
+                    <select class="form-control">
+                      <option value="0" selected>-- Select --</option>
+                      <option value="1">Strength 01</option>
+                      <option value="2">Strength 02</option>
+                      <option value="3">Strength 03</option>
+                    </select>
+                      </div>
+                     </div>
+                   </div>
+                </div>
+                <div class="row">
+                  <div class="col"><button class="btn btn-sm btn-secondary" id="btnPrevious">Previous</button></div>
+                  <div class="col text-right"><a type="button" href="#" class="btn btn-sm btn-primary" id="btnNext" value="Next" />Save & next  </a></div></div>
+              
+                
+              </div>
+
+                    <!-- start tab pan Proposedcompensation-->
+                  <div class="tab-pane" id="Proposedcompensation">
+                <h5 class="mb-3"><strong>Proposed Compensation </strong></h5>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="form-group form-row">
+                      <div class="col-md-3">
+                        <label>Currency</label>
+                    <select class="form-control">
+                      <option value="0" selected>-- Select --</option>
+                       <option>Dollar ($)</option>
+                       <option>Euro (€)</option>
+                       <option>Rupee (₹) </option>
+                       <option>Pound (£)</option>
+                       <option>Yen (¥)</option>
+                    </select>
+                      </div>
+                      <div class="col-md-3">
+                        <label>Base Salary</label>
+                    <select class="form-control">
+                      <option value="0" selected>-- Select --</option>
+                      <option value="1">10000</option>
+                      <option value="2">15000</option>
+                      <option value="3">25000</option>
+                    </select>
+                      </div>
+                      <div class="col-md-3">
+                        <label>Bonus</label>
+                    <select class="form-control">
+                      <option value="0" selected>-- Select --</option>
+                      <option value="1">2000</option>
+                      <option value="2">5000</option>
+                      <option value="3">10000</option>
+                    </select>
+                      </div>
+                      <div class="col-md-3">
+                        <label>Long term incentives</label>
+                    <select class="form-control">
+                      <option value="0" selected>-- Select --</option>
+                      <option value="1">2000</option>
+                      <option value="2">5000</option>
+                      <option value="3">10000</option>
+                    </select>
+                      </div>  
+                      
+                    </div>
+                      
+                    <div class="form-group form-row">
+                     <div class="col-md-8">
+                      <label>Benefits</label>
+                    <textarea class="form-control" placeholder="Type here" rows="3"></textarea>
+                    </div>
+                     <div class="col-md-3 offset-1" style="margin-top: 30px;">
+                       <div class="checkbox-fade fade-in-primary">
+                        <label>
+                        <span>Relocation Package</span>
+                            <input type="checkbox" class="parentCheckBox" value="">
+                            <span class="cr">
+                                <i class="cr-icon ik ik-check txt-primary"></i>
+                            </span>
+                            
+                        </label>
+                    </div>
+                    </div>
+                    
+                    </div>
+                  </div>
+                 
+                </div>
+                <div class="row">
+                  <div class="col"><button class="btn btn-sm btn-secondary"id="btnPrevious">Previous</button></div>
+                  <div class="col text-right"><a type="button" href="active-job.html" class="btn btn-sm btn-secondary">Save as Draft</a> <a type="button" href="active-job.html" class="btn btn-sm btn-primary">Publish </a></div></div>
+              
+                </div>
+                <!-- End tab pan Proposedcompensation-->
+
+
+
+            </div>  
+
+                          
+                     </div>     
+            </div>
+          </div>
+        </div>       
+
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="w-100 clearfix"> <span class="text-center text-sm-left d-md-inline-block">Copyright © 2021 Oysterwings.</span> <span class="float-none float-sm-right mt-1 mt-sm-0 text-center"><a href="https://www.digitalsolutions.co.in/" class="text-dark" target="_blank"><img src="../img/powered-by.png" /></a></span> </div>
+    </footer>
+  </div>
+</div>
+<script>window.jQuery || document.write('<script src="../src/js/vendor/jquery-3.3.1.min.js"><\/script>')</script> 
+<script src="../plugins/popper.js/dist/umd/popper.min.js"></script> 
+<script src="../plugins/bootstrap/dist/js/bootstrap.min.js"></script> 
+<script src="../plugins/perfect-scrollbar/dist/perfect-scrollbar.min.js"></script> 
+<script src="../plugins/screenfull/dist/screenfull.js"></script> 
+<script src="../dist/js/theme.min.js"></script> 
+<link rel="stylesheet" href="../dist/css/bootstrap-multiselect.css">
+<script type="text/javascript" src="../dist/js/bootstrap-multiselect.js"></script> 
+<script type="text/javascript">
+$(document).ready(function() {
+  $('.multiselect').multiselect({
+    enableFiltering: true,
+    includeSelectAllOption: true,
+    maxHeight: 400,
+    buttonWidth: '100%'
+  });
+ 
+});
+</script>
+<script>
+  $('#btnNext').click(function(){
+  $('.nav-item > .active').next('li').find('a').trigger('click');
+});
+
+  $('#btnPrevious').click(function(){
+  $('.nav-item > .active').prev('li').find('a').trigger('click');
+});
+</script>
+</body>
+</html>

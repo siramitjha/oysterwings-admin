@@ -1,0 +1,1225 @@
+<!DOCTYPE HTML>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Complete Profile | Oysterwings</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.png">
+<link rel="stylesheet" href="plugins/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="plugins/fontawesome/fontawesome-free/css/all.min.css">
+<link rel="stylesheet" href="plugins/icon-kit/dist/css/iconkit.min.css">
+<link rel="stylesheet" href="plugins/ionicons/dist/css/ionicons.min.css">
+<link rel="stylesheet" href="plugins/perfect-scrollbar/css/perfect-scrollbar.css">
+<link rel="stylesheet" href="dist/css/theme.min.css">
+<script src="src/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+<!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div class="wrapper">
+  <header class="header-top" header-theme="light">
+    <div class="container-fluid">
+      <div class="d-flex justify-content-between">
+        <div class="top-menu d-flex align-items-center">
+          <button type="button" class="btn-icon mobile-nav-toggle d-lg-none"><span></span></button>
+          <div class="header-search">
+            <div class="input-group"> <span class="input-group-addon search-close"><i class="ik ik-x"></i></span>
+              <input type="text" class="form-control">
+              <span class="input-group-addon search-btn"><i class="ik ik-search"></i></span> </div>
+          </div>
+          <button type="button" id="navbar-fullscreen" class="nav-link"><i class="ik ik-maximize"></i></button>
+        </div>
+        <div class="top-menu d-flex align-items-center">
+          <div class="dropdown"> <a class="nav-link dropdown-toggle" href="#" id="notiDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="ik ik-bell"></i><span class="badge bg-danger">3</span></a>
+            <div class="dropdown-menu dropdown-menu-right notification-dropdown" aria-labelledby="notiDropdown">
+              <h4 class="header">Notifications</h4>
+              <div class="notifications-wrap"> <a href="#" class="media"> <span class="d-flex"> <i class="ik ik-check"></i> </span> <span class="media-body"> <span class="heading-font-family media-heading">Invitation accepted</span> <span class="media-content">Your have been Invited ...</span> </span> </a> <a href="#" class="media"> <span class="d-flex"> <img src="img/air-india3.jpg" class="rounded-circle" alt=""> </span> <span class="media-body"> <span class="heading-font-family media-heading">Air India</span> <span class="media-content">Meeting with Rahul on Friday 10 AM</span> </span> </a> <a href="#" class="media"> <span class="d-flex"> <i class="ik ik-calendar"></i> </span> <span class="media-body"> <span class="heading-font-family media-heading">To Do</span> <span class="media-content">Meeting with Nathan on Saturday 9 AM ...</span> </span> </a> </div>
+              <div class="footer"><a href="#">See all activity</a></div>
+            </div>
+          </div>
+          <div class="dropdown"> <a class="dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="ml-3">Pankaj </span><img class="avatar" src="img/user.jpg" alt=""></a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown"> <a class="dropdown-item" href="profile.html"><i class="ik ik-user dropdown-icon"></i>View Profile</a><a class="dropdown-item" href="change-password.html"><i class="ik ik-lock dropdown-icon"></i>Change Password</a> <a href="#" class="dropdown-item" data-toggle="modal" data-target="#myModalInvite"><i class="ik ik-share dropdown-icon"></i>Invite Peers</a> <a class="dropdown-item" href="login.html"><i class="ik ik-power dropdown-icon"></i> Logout</a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <!-- myModalInvite Modal -->
+  <div class="modal fade" id="myModalInvite" role="dialog">
+    <div class="modal-dialog modal-sm" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Invite Peers</h5>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <form class="forms-sample">
+            <div class="form-group">
+              <label>Full Name</label>
+              <input type="text" class="form-control" name="" placeholder="Enter Full Name">
+            </div>
+            <div class="form-group">
+              <label>Email Address</label>
+              <input type="Email" class="form-control" name="" placeholder="Enter Email Address">
+            </div>
+            <div class="form-group">
+              <label>How did you hear about us? </label>
+              <select class="form-control">
+                <option>Select how did you hear about us?</option>
+                <option>Word of mouth</option>
+                <option>Employer</option>
+                <option>Television</option>
+                <option>Internet Advertisement</option>
+                <option>Search Engine</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Submit</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- //// myModal Invite -->
+  <div class="page-wrap">
+    <div class="app-sidebar colored">
+      <div class="sidebar-header"> <a class="header-brand" href="index.html">
+        <div class="logo-img"> <img src="img/logo.png" class="header-brand-img" alt="Oysterwings" /> <span class="text">Oysterwings</span></div>
+        </a>
+        <button type="button" class="nav-toggle"><i data-toggle="expanded" class="ik ik-toggle-right toggle-icon"></i></button>
+        <button id="sidebarClose" class="nav-close"><i class="ik ik-x"></i></button>
+      </div>
+      <div class="sidebar-content">
+        <div class="nav-container">
+          <nav id="main-menu-navigation" class="navigation-main">
+            <div class="nav-lavel">Navigation</div>
+            <div class="nav-item"> <a href="index.html"><i class="ik ik-bar-chart-2"></i><span>Dashboard</span></a> </div>
+            <div class="nav-item"> <a href="complete-profile.html"><i class="ik ik-user"></i><span>Complete Profile</span></a> </div>
+            <div class="nav-item"> <a href="blocked-employer.html"><i class="ik ik-alert-triangle"></i><span>Block Employer</span></a> </div>
+            <div class="nav-item"> <a href="my-matches.html"><i class="ik ik-check-circle"></i><span>My Matches</span></a> </div>
+            <div class="nav-item"> <a href="my-conversations.html#lastli"><i class="ik ik-message-circle"></i><span>My Conversations</span> <span class="badge badge-danger">3</span></a> </div>
+            <div class="nav-item"> <a href="questions.html"><i class="ik ik-help-circle"></i> <span>Questions Asked</span></a> </div>
+            <div class="nav-item"> <a href="calendar.html"><i class="ik ik-calendar"></i> <span>Calendar</span></a></div>
+            <div class="nav-item"> <a href="notification.html"><i class="ik ik-bell"></i> <span>Notification</span></a></div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="container-fluid">
+        <div class="page-header">
+          <div class="row align-items-end">
+            <div class="col">
+              <div class="page-header-title"> <i class="fa fa-user bg-blue"></i>
+                <div class="d-inline">
+                  <h5>Complete Profile</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <nav class="breadcrumb-container" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"> <a href="index.html"><i class="ik ik-home"></i></a> </li>
+                  <li class="breadcrumb-item active" aria-current="page">Complete Profile</li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="row my-2">
+          <div class="col-xl-12"> 
+                <div class="proj-progress-card mb-10">
+                    <div>
+                        <div class="row">
+                            <div class="col-xl-12 col-md-12">
+                                <h6><strong>Completed Profile</strong> <span class="text-blue">(15%)</span></h6>
+                                <div class="progress">
+                                    <div class="progress-bar bg-blue" style="width:15%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+          </div>
+                      
+          <div class="col-lg-10 order-lg-2">
+            <ul class="nav nav-tabs">
+              <li class="nav-item"> <a href="" data-target="#tabprofile" data-toggle="tab" class="nav-link active">Profile</a> </li>
+              <li class="nav-item"> <a href="" data-target="#tabindustrytype" data-toggle="tab" class="nav-link">Industry Type</a> </li>
+              <li class="nav-item"> <a href="" data-target="#tabeducation" data-toggle="tab" class="nav-link">Education</a> </li>
+              <li class="nav-item"> <a href="" data-target="#tablanguage" data-toggle="tab" class="nav-link">Language</a> </li>
+              <li class="nav-item"> <a href="" data-target="#tabexperience" data-toggle="tab" class="nav-link">Experience</a> </li>
+              <li class="nav-item"> <a href="" data-target="#tabinseeking" data-toggle="tab" class="nav-link">In Seeking</a> </li>
+              <li class="nav-item"> <a href="" data-target="#tabcompensation" data-toggle="tab" class="nav-link">Compensation</a> </li>
+              <li class="nav-item"> <a href="" data-target="#tabthevoluntaryselfidentification" data-toggle="tab" class="nav-link">The Voluntary Self Identification</a> </li>
+            </ul>
+            <div class="tab-content py-4">
+              <div class="tab-pane active" id="tabprofile"> 
+                <h5 class="mb-3"><strong>User Profile</strong></h5>
+                <div class="row">
+                  <div class="col-md-6"> <strong>Name:</strong>
+                    <p>Pankaj Rawat</p>
+                    <strong>Email:</strong>
+                    <p><a href="mailto:pankajrawatdelhi@gmail.com" class="text-primary">pankajrawatdelhi@gmail.com</a></p>
+                    <strong>Phone Number:</strong>
+                    <p><a href="tel:+919650666104" class="text-primary">+91 9650666104</a></p>
+                    <strong>Upload Resume:</strong>
+                    <p>
+                      <input type="file">
+                      <br>
+                      <small>The user will be able to upload resume in pdf, doc, docx format not more than 5MB in size</small></p>
+                  </div>
+                  <div class="col-md-6">
+                    <h6>Social links</h6>
+                    <hr />
+                    <div class="form-group row mb-0">
+                      <label class="col-lg-3 col-form-label form-control-label">Facebook</label>
+                      <div class="col-lg-9">
+                        <div class="input-group">
+                          <div class="input-group-prepend"> <span class="input-group-text"><i class="ik ik-facebook"></i></span> </div>
+                          <input type="text" class="form-control" placeholder="Paste Your Facebook Link">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group row mb-0">
+                      <label class="col-lg-3 col-form-label form-control-label">Twitter</label>
+                      <div class="col-lg-9">
+                        <div class="input-group">
+                          <div class="input-group-prepend"> <span class="input-group-text"><i class="ik ik-twitter"></i></span> </div>
+                          <input type="text" class="form-control" placeholder="Paste Your Twitter Link">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group row mb-0">
+                      <label class="col-lg-3 col-form-label form-control-label">LinkedIn</label>
+                      <div class="col-lg-9">
+                        <div class="input-group">
+                          <div class="input-group-prepend"> <span class="input-group-text"><i class="ik ik-linkedin"></i></span> </div>
+                          <input type="text" class="form-control" placeholder="Paste Your LinkedIn Link">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group row mb-0">
+                      <label class="col-lg-3 col-form-label form-control-label">Website</label>
+                      <div class="col-lg-9">
+                        <div class="input-group">
+                          <div class="input-group-prepend"> <span class="input-group-text"><i class="ik ik-globe"></i></span> </div>
+                          <input type="text" class="form-control" placeholder="Paste Your Website Link">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--/row-->
+                
+                <button class="btn btn-sm btn-primary">Submit</button>
+                <button class="btn btn-sm btn-secondary">Reset</button>
+              </div>
+              
+              
+              <div class="tab-pane" id="tabindustrytype"> 
+                <div class="row">
+                  <div class="col-md-3">
+                    <label>Industry Type</label>
+                    <select class="form-control" id="industrytype">
+                      <option value="0">-- Select --</option>
+                      <option value="1">Aviation</option>
+                      <option value="2">Non- Aviation</option>
+                    </select>
+                  </div>
+                  <div class="col-md-3" id="organizationalleveldiv" style="display:none;">
+                    <label>Organizational Level</label>
+                    <select class="form-control" id="organizationallevel">
+                      <option value="0" selected>-- Select --</option>
+                      <option value="1">X1</option>
+                      <option value="2">X2</option>
+                      <option value="3">X3</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row pt-30" id="X1Experience" style="display:none;"> <br class="clear">
+                  <div class="col-md-12">
+                    <h5 style="color:#00b4ff;"><b>X1 Experience</b></h5>
+                    <div class="form-group form-row">
+                      <div class="col-md-3">
+                        <label>Title</label>
+                        <input type="text" class="form-control" name="title" placeholder="Title">
+                      </div>
+                      <div class="col-md-3">
+                        <label>Function</label>
+                        <select class="form-control multiselect" multiple>
+                          <option value="1">Function 01</option>
+                          <option value="2">Function 02</option>
+                        </select>
+                      </div>
+                      <div class="col-md-3">
+                        <label>X1 Name</label>
+                        <input type="text" class="form-control" name="title" placeholder="Enter X1 Name">
+                      </div>
+                      <div class="col-md-3">
+                        <label>Employer/Recruiter</label>
+                        <select class="form-control">
+                          <option value="0" selected="">-- Select --</option>
+                          <option value="1">Employer/Recruiter 01</option>
+                          <option value="2">Employer/Recruiter 02</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label>Roles &amp; Responsibilities </label>
+                      <textarea type="text" class="form-control" name="title" placeholder="Type here..."></textarea>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div>
+                          <label class="checkbox-inline">
+                            <input type="checkbox" value="0">
+                            Currently Working Here</label>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-6">
+                            <label>Start Date</label>
+                            <div class="row">
+                              <div class="col-md-6 pr-0">
+                                <select class="form-control">
+                                  <option value="0" selected="">-- Month --</option>
+                                  <option value="1">Jan</option>
+                                  <option value="2">Feb</option>
+                                  <option value="3">Mar</option>
+                                  <option value="4">Apr</option>
+                                  <option value="5">May</option>
+                                  <option value="6">Jun</option>
+                                  <option value="7">Jul</option>
+                                  <option value="8">Aug</option>
+                                  <option value="9">Sep</option>
+                                  <option value="10">Oct</option>
+                                  <option value="11">Nov</option>
+                                  <option value="12">Dec</option>
+                                </select>
+                              </div>
+                              <div class="col-md-6">
+                                <select class="form-control">
+                                  <option value="0" selected="">-- Year --</option>
+                                  <option value="2021">2021</option>
+                                  <option value="2020">2020</option>
+                                  <option value="2019">2019</option>
+                                  <option value="2018">2018</option>
+                                  <option value="2017">2017</option>
+                                  <option value="2016">2016</option>
+                                  <option value="2015">2015</option>
+                                  <option value="2014">2014</option>
+                                  <option value="2013">2013</option>
+                                  <option value="2012">2012</option>
+                                  <option value="2011">2011</option>
+                                  <option value="2010">2010</option>
+                                  <option value="2009">2009</option>
+                                  <option value="2008">2008</option>
+                                  <option value="2007">2007</option>
+                                  <option value="2006">2006</option>
+                                  <option value="2005">2005</option>
+                                  <option value="2004">2004</option>
+                                  <option value="2003">2003</option>
+                                  <option value="2002">2002</option>
+                                  <option value="2001">2001</option>
+                                  <option value="2000">2000</option>
+                                  <option value="1999">1999</option>
+                                  <option value="1998">1998</option>
+                                  <option value="1997">1997</option>
+                                  <option value="1996">1996</option>
+                                  <option value="1995">1995</option>
+                                  <option value="1994">1994</option>
+                                  <option value="1993">1993</option>
+                                  <option value="1992">1992</option>
+                                  <option value="1991">1991</option>
+                                  <option value="1990">1990</option>
+                                  <option value="1989">1989</option>
+                                  <option value="1988">1988</option>
+                                  <option value="1987">1987</option>
+                                  <option value="1986">1986</option>
+                                  <option value="1985">1985</option>
+                                  <option value="1984">1984</option>
+                                  <option value="1983">1983</option>
+                                  <option value="1982">1982</option>
+                                  <option value="1981">1981</option>
+                                  <option value="1980">1980</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <label>End Date</label>
+                            <div class="row">
+                              <div class="col-md-6 pr-0">
+                                <select class="form-control">
+                                  <option value="0" selected="">-- Month --</option>
+                                  <option value="1">Jan</option>
+                                  <option value="2">Feb</option>
+                                  <option value="3">Mar</option>
+                                  <option value="4">Apr</option>
+                                  <option value="5">May</option>
+                                  <option value="6">Jun</option>
+                                  <option value="7">Jul</option>
+                                  <option value="8">Aug</option>
+                                  <option value="9">Sep</option>
+                                  <option value="10">Oct</option>
+                                  <option value="11">Nov</option>
+                                  <option value="12">Dec</option>
+                                </select>
+                              </div>
+                              <div class="col-md-6">
+                                <select class="form-control">
+                                  <option value="0" selected="">-- Year --</option>
+                                  <option value="2021">2021</option>
+                                  <option value="2020">2020</option>
+                                  <option value="2019">2019</option>
+                                  <option value="2018">2018</option>
+                                  <option value="2017">2017</option>
+                                  <option value="2016">2016</option>
+                                  <option value="2015">2015</option>
+                                  <option value="2014">2014</option>
+                                  <option value="2013">2013</option>
+                                  <option value="2012">2012</option>
+                                  <option value="2011">2011</option>
+                                  <option value="2010">2010</option>
+                                  <option value="2009">2009</option>
+                                  <option value="2008">2008</option>
+                                  <option value="2007">2007</option>
+                                  <option value="2006">2006</option>
+                                  <option value="2005">2005</option>
+                                  <option value="2004">2004</option>
+                                  <option value="2003">2003</option>
+                                  <option value="2002">2002</option>
+                                  <option value="2001">2001</option>
+                                  <option value="2000">2000</option>
+                                  <option value="1999">1999</option>
+                                  <option value="1998">1998</option>
+                                  <option value="1997">1997</option>
+                                  <option value="1996">1996</option>
+                                  <option value="1995">1995</option>
+                                  <option value="1994">1994</option>
+                                  <option value="1993">1993</option>
+                                  <option value="1992">1992</option>
+                                  <option value="1991">1991</option>
+                                  <option value="1990">1990</option>
+                                  <option value="1989">1989</option>
+                                  <option value="1988">1988</option>
+                                  <option value="1987">1987</option>
+                                  <option value="1986">1986</option>
+                                  <option value="1985">1985</option>
+                                  <option value="1984">1984</option>
+                                  <option value="1983">1983</option>
+                                  <option value="1982">1982</option>
+                                  <option value="1981">1981</option>
+                                  <option value="1980">1980</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group form-row">
+                          <div class="col-md-6">
+                            <label>Pathway to GM</label>
+                            <br>
+                            <label>
+                              <input name="PathwaytoGMX1Experience" type="radio" value="Yes">
+                              Yes</label>
+                            &nbsp;&nbsp;
+                            <label>
+                              <input name="PathwaytoGMX1Experience" type="radio" value="No">
+                              No</label>
+                          </div>
+                          <div class="col-md-6">
+                            <label>Path to GM selection (optional)</label>
+                            <select class="form-control">
+                              <option value="0" selected=""> -- Select --</option>
+                              <option value="1">GM selection 01</option>
+                              <option value="2">GM selection 02</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row pt-30" id="X2Experience" style="display:none;"> <br class="clear">
+                  <div class="col-md-12">
+                    <h5 style="color:#00b4ff;"><b>X2 Experience</b></h5>
+                    <div class="form-group form-row">
+                      <div class="col-md-3">
+                        <label>Title</label>
+                        <input type="text" class="form-control" name="title" placeholder="Title">
+                      </div>
+                      <div class="col-md-3">
+                        <label>Function</label>
+                        <select class="form-control multiselect" multiple>
+                          <option value="1">Function 01</option>
+                          <option value="2">Function 02</option>
+                        </select>
+                      </div>
+                      <div class="col-md-3">
+                        <label>Level</label>
+                        <select class="form-control multiselect" multiple>
+                          <option value="1">Level 01</option>
+                          <option value="2">Level 02</option>
+                        </select>
+                      </div>
+                      <div class="col-md-3">
+                        <label>Employer/Recruiter</label>
+                        <select class="form-control">
+                          <option value="0" selected="">-- Select --</option>
+                          <option value="1">Employer/Recruiter 01</option>
+                          <option value="2">Employer/Recruiter 02</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label>Roles &amp; Responsibilities </label>
+                      <textarea type="text" class="form-control" name="title" placeholder="Type here..."></textarea>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div>
+                          <label class="checkbox-inline">
+                            <input type="checkbox" value="0">
+                            Currently Working Here</label>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-6">
+                            <label>Start Date</label>
+                            <div class="row">
+                              <div class="col-md-6 pr-0">
+                                <select class="form-control">
+                                  <option value="0" selected="">-- Month --</option>
+                                  <option value="1">Jan</option>
+                                  <option value="2">Feb</option>
+                                  <option value="3">Mar</option>
+                                  <option value="4">Apr</option>
+                                  <option value="5">May</option>
+                                  <option value="6">Jun</option>
+                                  <option value="7">Jul</option>
+                                  <option value="8">Aug</option>
+                                  <option value="9">Sep</option>
+                                  <option value="10">Oct</option>
+                                  <option value="11">Nov</option>
+                                  <option value="12">Dec</option>
+                                </select>
+                              </div>
+                              <div class="col-md-6">
+                                <select class="form-control">
+                                  <option value="0" selected="">-- Year --</option>
+                                  <option value="2021">2021</option>
+                                  <option value="2020">2020</option>
+                                  <option value="2019">2019</option>
+                                  <option value="2018">2018</option>
+                                  <option value="2017">2017</option>
+                                  <option value="2016">2016</option>
+                                  <option value="2015">2015</option>
+                                  <option value="2014">2014</option>
+                                  <option value="2013">2013</option>
+                                  <option value="2012">2012</option>
+                                  <option value="2011">2011</option>
+                                  <option value="2010">2010</option>
+                                  <option value="2009">2009</option>
+                                  <option value="2008">2008</option>
+                                  <option value="2007">2007</option>
+                                  <option value="2006">2006</option>
+                                  <option value="2005">2005</option>
+                                  <option value="2004">2004</option>
+                                  <option value="2003">2003</option>
+                                  <option value="2002">2002</option>
+                                  <option value="2001">2001</option>
+                                  <option value="2000">2000</option>
+                                  <option value="1999">1999</option>
+                                  <option value="1998">1998</option>
+                                  <option value="1997">1997</option>
+                                  <option value="1996">1996</option>
+                                  <option value="1995">1995</option>
+                                  <option value="1994">1994</option>
+                                  <option value="1993">1993</option>
+                                  <option value="1992">1992</option>
+                                  <option value="1991">1991</option>
+                                  <option value="1990">1990</option>
+                                  <option value="1989">1989</option>
+                                  <option value="1988">1988</option>
+                                  <option value="1987">1987</option>
+                                  <option value="1986">1986</option>
+                                  <option value="1985">1985</option>
+                                  <option value="1984">1984</option>
+                                  <option value="1983">1983</option>
+                                  <option value="1982">1982</option>
+                                  <option value="1981">1981</option>
+                                  <option value="1980">1980</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <label>End Date</label>
+                            <div class="row">
+                              <div class="col-md-6 pr-0">
+                                <select class="form-control">
+                                  <option value="0" selected="">-- Month --</option>
+                                  <option value="1">Jan</option>
+                                  <option value="2">Feb</option>
+                                  <option value="3">Mar</option>
+                                  <option value="4">Apr</option>
+                                  <option value="5">May</option>
+                                  <option value="6">Jun</option>
+                                  <option value="7">Jul</option>
+                                  <option value="8">Aug</option>
+                                  <option value="9">Sep</option>
+                                  <option value="10">Oct</option>
+                                  <option value="11">Nov</option>
+                                  <option value="12">Dec</option>
+                                </select>
+                              </div>
+                              <div class="col-md-6">
+                                <select class="form-control">
+                                  <option value="0" selected="">-- Year --</option>
+                                  <option value="2021">2021</option>
+                                  <option value="2020">2020</option>
+                                  <option value="2019">2019</option>
+                                  <option value="2018">2018</option>
+                                  <option value="2017">2017</option>
+                                  <option value="2016">2016</option>
+                                  <option value="2015">2015</option>
+                                  <option value="2014">2014</option>
+                                  <option value="2013">2013</option>
+                                  <option value="2012">2012</option>
+                                  <option value="2011">2011</option>
+                                  <option value="2010">2010</option>
+                                  <option value="2009">2009</option>
+                                  <option value="2008">2008</option>
+                                  <option value="2007">2007</option>
+                                  <option value="2006">2006</option>
+                                  <option value="2005">2005</option>
+                                  <option value="2004">2004</option>
+                                  <option value="2003">2003</option>
+                                  <option value="2002">2002</option>
+                                  <option value="2001">2001</option>
+                                  <option value="2000">2000</option>
+                                  <option value="1999">1999</option>
+                                  <option value="1998">1998</option>
+                                  <option value="1997">1997</option>
+                                  <option value="1996">1996</option>
+                                  <option value="1995">1995</option>
+                                  <option value="1994">1994</option>
+                                  <option value="1993">1993</option>
+                                  <option value="1992">1992</option>
+                                  <option value="1991">1991</option>
+                                  <option value="1990">1990</option>
+                                  <option value="1989">1989</option>
+                                  <option value="1988">1988</option>
+                                  <option value="1987">1987</option>
+                                  <option value="1986">1986</option>
+                                  <option value="1985">1985</option>
+                                  <option value="1984">1984</option>
+                                  <option value="1983">1983</option>
+                                  <option value="1982">1982</option>
+                                  <option value="1981">1981</option>
+                                  <option value="1980">1980</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row mt-30" id="X3Experience" style="display:none;"> <br class="clear">
+                  <div class="col-md-12">
+                    <h5 style="color:#00b4ff;"><b>X3 Experience</b></h5>
+                    <div class="form-group form-row"> 
+                      <div class="col-md-3">
+                        <label>Title</label>
+                        <input type="text" class="form-control" name="title" placeholder="Title">
+                      </div>
+                      <div class="col-md-3">
+                        <label>Function</label>
+                        <select class="form-control multiselect" multiple>
+                          <option value="1">Function 01</option>
+                          <option value="2">Function 02</option>
+                        </select>
+                      </div>
+                      <div class="col-md-3">
+                        <label>Level</label>
+                        <select class="form-control multiselect" multiple>
+                          <option value="1">Level 01</option>
+                          <option value="2">Level 02</option>
+                        </select>
+                      </div>
+                      <div class="col-md-3">
+                        <label>Employer/Recruite</label>
+                        <select class="form-control">
+                          <option value="0" selected="">-- Select --</option>
+                          <option value="1">Employer/Recruite 01</option>
+                          <option value="2">Employer/Recruite 02</option>
+                        </select>
+                      </div>
+                      </div>
+                      <div class="form-group">
+                        <label>Roles &amp; Responsibilities </label>
+                        <textarea type="text" class="form-control" name="title" placeholder="Type here..."></textarea>
+                      </div>
+                      <div class="row">
+                      <div class="col-md-6">
+                        <div>
+                          <label class="checkbox-inline">
+                            <input type="checkbox" value="0">
+                            Currently Working Here</label>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-6">
+                            <label>Start Date</label>
+                            <div class="row">
+                              <div class="col-md-6 pr-0">
+                                <select class="form-control">
+                                  <option value="0" selected="">-- Month --</option>
+                                  <option value="1">Jan</option>
+                                  <option value="2">Feb</option>
+                                  <option value="3">Mar</option>
+                                  <option value="4">Apr</option>
+                                  <option value="5">May</option>
+                                  <option value="6">Jun</option>
+                                  <option value="7">Jul</option>
+                                  <option value="8">Aug</option>
+                                  <option value="9">Sep</option>
+                                  <option value="10">Oct</option>
+                                  <option value="11">Nov</option>
+                                  <option value="12">Dec</option>
+                                </select>
+                              </div>
+                              <div class="col-md-6">
+                                <select class="form-control">
+                                  <option value="0" selected="">-- Year --</option>
+                                  <option value="2021">2021</option>
+                                  <option value="2020">2020</option>
+                                  <option value="2019">2019</option>
+                                  <option value="2018">2018</option>
+                                  <option value="2017">2017</option>
+                                  <option value="2016">2016</option>
+                                  <option value="2015">2015</option>
+                                  <option value="2014">2014</option>
+                                  <option value="2013">2013</option>
+                                  <option value="2012">2012</option>
+                                  <option value="2011">2011</option>
+                                  <option value="2010">2010</option>
+                                  <option value="2009">2009</option>
+                                  <option value="2008">2008</option>
+                                  <option value="2007">2007</option>
+                                  <option value="2006">2006</option>
+                                  <option value="2005">2005</option>
+                                  <option value="2004">2004</option>
+                                  <option value="2003">2003</option>
+                                  <option value="2002">2002</option>
+                                  <option value="2001">2001</option>
+                                  <option value="2000">2000</option>
+                                  <option value="1999">1999</option>
+                                  <option value="1998">1998</option>
+                                  <option value="1997">1997</option>
+                                  <option value="1996">1996</option>
+                                  <option value="1995">1995</option>
+                                  <option value="1994">1994</option>
+                                  <option value="1993">1993</option>
+                                  <option value="1992">1992</option>
+                                  <option value="1991">1991</option>
+                                  <option value="1990">1990</option>
+                                  <option value="1989">1989</option>
+                                  <option value="1988">1988</option>
+                                  <option value="1987">1987</option>
+                                  <option value="1986">1986</option>
+                                  <option value="1985">1985</option>
+                                  <option value="1984">1984</option>
+                                  <option value="1983">1983</option>
+                                  <option value="1982">1982</option>
+                                  <option value="1981">1981</option>
+                                  <option value="1980">1980</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <label>End Date</label>
+                            <div class="row">
+                              <div class="col-md-6 pr-0">
+                                <select class="form-control">
+                                  <option value="0" selected="">-- Month --</option>
+                                  <option value="1">Jan</option>
+                                  <option value="2">Feb</option>
+                                  <option value="3">Mar</option>
+                                  <option value="4">Apr</option>
+                                  <option value="5">May</option>
+                                  <option value="6">Jun</option>
+                                  <option value="7">Jul</option>
+                                  <option value="8">Aug</option>
+                                  <option value="9">Sep</option>
+                                  <option value="10">Oct</option>
+                                  <option value="11">Nov</option>
+                                  <option value="12">Dec</option>
+                                </select>
+                              </div>
+                              <div class="col-md-6">
+                                <select class="form-control">
+                                  <option value="0" selected="">-- Year --</option>
+                                  <option value="2021">2021</option>
+                                  <option value="2020">2020</option>
+                                  <option value="2019">2019</option>
+                                  <option value="2018">2018</option>
+                                  <option value="2017">2017</option>
+                                  <option value="2016">2016</option>
+                                  <option value="2015">2015</option>
+                                  <option value="2014">2014</option>
+                                  <option value="2013">2013</option>
+                                  <option value="2012">2012</option>
+                                  <option value="2011">2011</option>
+                                  <option value="2010">2010</option>
+                                  <option value="2009">2009</option>
+                                  <option value="2008">2008</option>
+                                  <option value="2007">2007</option>
+                                  <option value="2006">2006</option>
+                                  <option value="2005">2005</option>
+                                  <option value="2004">2004</option>
+                                  <option value="2003">2003</option>
+                                  <option value="2002">2002</option>
+                                  <option value="2001">2001</option>
+                                  <option value="2000">2000</option>
+                                  <option value="1999">1999</option>
+                                  <option value="1998">1998</option>
+                                  <option value="1997">1997</option>
+                                  <option value="1996">1996</option>
+                                  <option value="1995">1995</option>
+                                  <option value="1994">1994</option>
+                                  <option value="1993">1993</option>
+                                  <option value="1992">1992</option>
+                                  <option value="1991">1991</option>
+                                  <option value="1990">1990</option>
+                                  <option value="1989">1989</option>
+                                  <option value="1988">1988</option>
+                                  <option value="1987">1987</option>
+                                  <option value="1986">1986</option>
+                                  <option value="1985">1985</option>
+                                  <option value="1984">1984</option>
+                                  <option value="1983">1983</option>
+                                  <option value="1982">1982</option>
+                                  <option value="1981">1981</option>
+                                  <option value="1980">1980</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+                
+                <div class="mt-20">
+                	<button class="btn btn-sm btn-primary">Submit</button>
+                	<button class="btn btn-sm btn-secondary">Reset</button>
+                </div>
+              </div>
+              
+              
+              <div class="tab-pane" id="tabeducation"> 
+              	<h5 class="mb-3"><strong>Education</strong></h5>
+                  <div class="row">
+                  
+                    <div class="col-lg-4">
+                        <div class="form-group">
+                          <label>Educational Institution</label>
+                          <input type="text" name="" class="form-control" placeholder="Institution Name">
+                        </div>
+                        <div class="form-group">
+                          <label>Major/Study</label>
+                          <input type="text" name="" class="form-control" placeholder="Major/Study Name">
+                        </div>
+                        <div class="form-group">
+                          <label>Graduation year</label>
+                          <select type="year" class="form-control">
+                            <option value="0" selected="">Select Year</option>
+                            <option value="1">2020</option>
+                            <option value="2">2021</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          <label>Degree</label>
+                          <input type="text" name="" class="form-control" placeholder="Degree Name">
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-8">
+                      <div class="table-responsive">
+                          <table class="table table-sm table-hover table-striped" id="hoverTable">
+                            <thead>
+                              <tr>
+                                <th>Educational Institution</th>
+                                <th>Major/Study</th>
+                                <th>Graduation year</th>
+                                <th>Degree</th>
+                                <th>Action</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>Indian Institute of Science</td>
+                                <td>Coputer science</td>
+                                <td>2020</td>
+                                <td>BCA</td>
+                                <td><div><a href="#" class="text-primary">Edit |&nbsp;</a> <a href="#" class="text-danger">Delete</a> </div></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                    </div>
+                    
+                  </div>
+                  
+                  <button class="btn btn-sm btn-primary">Submit</button>
+                  <button class="btn btn-sm btn-secondary">Reset</button>
+              </div>
+              
+              <div class="tab-pane" id="tablanguage">  
+              	<h5 class="mb-3"><strong>Language</strong></h5>
+                  <div class="row">
+                  
+                    <div class="col-lg-4">
+                        <div class="form-group">
+                          <label>Language</label>
+                          <select class="form-control">
+                            <option selected="">-- Select --</option>
+                            <option value="0">Hindi</option>
+                            <option value="1">English</option>
+                            <option value="2">Arbi</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          <label>Level</label>
+                          <select class="form-control">
+                            <option selected="">-- Select --</option>
+                            <option value="1">Level 01</option>
+                            <option value="2">Level 02</option>
+                            <option value="3">Level 03</option>
+                          </select>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-8">
+                      <div class="table-responsive">
+                          <table class="table table-sm table-hover table-striped">
+                            <thead>
+                              <tr>
+                                <th>Language</th>
+                                <th>Level</th>
+                                <th>Action</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>English</td>
+                                <td>Level 02</td>
+                                <td><div><a href="#" class="text-primary">Edit |&nbsp;</a> <a href="#" class="text-danger">Delete</a> </div></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                    </div>
+                    
+                  </div>
+                  
+                  <button class="btn btn-sm btn-primary">Submit</button>
+                  <button class="btn btn-sm btn-secondary">Reset</button>
+              </div>
+              
+              
+              
+              <div class="tab-pane" id="tabexperience">   
+              	<h5 class="mb-3"><strong>Experience in Aviation</strong></h5>
+                  <div class="row">
+                  
+                    <div class="col-lg-4">
+                        <div class="form-group">
+                        <label>Number of years</label>
+                        <select class="form-control">
+                          <option selected="">-- Select --</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="3">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                          <option value="7">7</option>
+                          <option value="8">8</option>
+                          <option value="9">9</option>
+                          <option value="10">10</option>
+                          <option value="10+">10+</option>
+                        </select>  
+                        </div>
+                        <div class="form-group">
+                            <label>Key Market Experience</label>
+                            <select class="form-control">
+                              <option selected="">-- Select --</option>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                            </select>
+                        </div>
+                        
+                        
+                        <h5 class="mt-30 mb-3"><strong>Add Key Experience</strong></h5>
+                        <div class="form-group">
+                          <label>Add Key Experience</label>
+                          <input type="text" name="" class="form-control" placeholder="Key Experience">
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-8">
+                    	<div class="table-responsive">
+                          <table class="table table-sm table-hover table-striped">
+                            <thead>
+                              <tr>
+                                <th>Number of years</th>
+                                <th>Key Market Experience</th>
+                                <th>Action</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>5</td>
+                                <td>3</td>
+                                <td><div><a href="#" class="text-primary">Edit |&nbsp;</a> <a href="#" class="text-danger">Delete</a> </div></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                    </div>
+                    
+                  </div>
+                  
+                  <button class="btn btn-sm btn-primary">Submit</button>
+                  <button class="btn btn-sm btn-secondary">Reset</button>
+              </div>
+              
+              
+              
+              <div class="tab-pane" id="tabinseeking">     
+              	<h5 class="mb-3"><strong>In Seeking</strong></h5>
+                  <div class="row">
+                  
+                    <div class="col-lg-4"> 
+                         <div class="form-group">
+                          <label>What type of position(s) are you looking for in your next role? (up to 3) </label>
+                          <input type="text" name="" class="form-control" placeholder="What type of position(s) (up to 3)">
+                        </div>
+                       <div class="form-group">
+                        <label>Preferred Locations (up to 3) (Optional)</label>
+                        <input type="text" name="" class="form-control" placeholder="Enter your locations">
+                       </div>
+                       <div class="form-group">
+                        <label>Position types (Optional)</label>
+                        <input type="text" name="" class="form-control" placeholder="Enter your position types">
+                       </div>
+                       <div class="form-group">
+                          <label>Bio (Optional)</label>
+                          <textarea type="text" name="" class="form-control" placeholder="Enter your Bio ..."></textarea>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="col-lg-4 offset-2"> 
+                        <div class="form-group">
+                          <label>Willing to Relocate?</label> <br>
+                          <label class="checkbox-inline"><input name="relocate" type="radio" value=""> Yes</label>
+                          <label class="checkbox-inline"> <input name="relocate" type="radio" value=""> No</label>
+                        </div>
+                       <div class="form-group">
+                        <label>Countries eligible to work in (Optional)</label>
+                        <input type="text" name="" class="form-control" placeholder="Countries eligible to work">
+                       </div>
+                       <div class="form-group">
+                        <label>Your Location (Optional)</label>
+                        <input type="text" name="" class="form-control" placeholder="Countries eligible to work">
+                       </div>
+                    </div>
+                    
+                    
+                  </div>
+                  
+                  <button class="btn btn-sm btn-primary">Submit</button>
+                  <button class="btn btn-sm btn-secondary">Reset</button>
+              </div>
+              
+              
+              
+              <div class="tab-pane" id="tabcompensation">      
+              	<h5 class="mb-3"><strong>Compensation</strong></h5>
+                  <div class="row">
+                  
+                    <div class="col-lg-4">
+                         <div class="form-group">
+                            <label>Currency</label>
+                            <input type="text" name="" class="form-control" placeholder="Currency">
+                          </div>
+                          <div class="form-group">
+                            <label>Base Salary</label>
+                            <input type="text" name="" class="form-control" placeholder="Enter your base salary">
+                          </div>
+                          <div class="form-group">
+                            <label>Bonus</label>
+                            <input type="text" name="" class="form-control" placeholder="Bonus Amount">
+                          </div>
+                          <div class="form-group">
+                            <label>Benefits</label>
+                            <input type="text" name="" class="form-control" placeholder="Benefits">
+                          </div>
+                    </div>
+                    
+                    <div class="col-lg-8">
+                    </div>
+                    
+                  </div>
+                  
+                  <button class="btn btn-sm btn-success">Continue</button>
+                  <button class="btn btn-sm btn-danger">Skip</button>
+              </div>
+              
+              
+              
+              <div class="tab-pane" id="tabthevoluntaryselfidentification">      
+              	<h5 class="mb-3"><strong>The Voluntary Self Identification</strong></h5>
+                  <div class="row">
+                  
+                    <div class="col-lg-4">
+                          <div class="form-group">
+                            <label>Are you a U.S. Military Veteran or currently serving in the U.S. Armed Forces?&nbsp;</label> <br />
+                            <label class="checkbox-inline"><input name="usarmed" type="radio" value=""> Yes</label> &nbsp;
+                            <label class="checkbox-inline"><input name="usarmed" type="radio" value=""> No</label>
+                          </div>
+                          <div class="form-group">
+                            <label>Gender</label> <br />
+                            <label class="checkbox-inline"><input name="gendervoluntary" type="radio" value=""> Male</label> &nbsp;
+                            <label class="checkbox-inline"><input name="gendervoluntary" type="radio" value=""> Female</label>
+                          </div>
+                          <div class="form-group">
+                            <label>Race/Ethnicity</label>
+                            <select class="form-control">
+                              <option selected="">Select Ethnicity </option>
+                              <option value="1">Hindu</option>
+                              <option value="2">Muslim</option>
+                              <option value="2">Sikh</option>
+                            </select>
+                          </div>
+                    </div>
+                    
+                    <div class="col-lg-8">
+                    </div>
+                    
+                  </div>
+                  
+                 <a href="profile.html" type="button" class="btn btn-sm btn-outline-success">Click on Continue Preview your page</a>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-lg-2 order-lg-1 text-center"> <img src="img/user.jpg" class="mx-auto img-fluid img-circle d-block" alt="Pankaj">
+            <h6 class="mt-2"><small>Change profile photo</small></h6>
+            <label class="custom-file">
+              <input type="file" id="file" class="custom-file-input">
+              <span class="custom-file-control btn btn-sm btn-outline-primary">Choose file</span> </label>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="w-100 clearfix"> <span class="text-center text-sm-left d-md-inline-block">Copyright © 2021 Oysterwings.</span> <span class="float-none float-sm-right mt-1 mt-sm-0 text-center"><a href="https://www.digitalsolutions.co.in/" class="text-dark" target="_blank"><img src="img/powered-by.png" /></a></span> </div>
+  </footer>
+</div>
+</div>
+<script>window.jQuery || document.write('<script src="src/js/vendor/jquery-3.3.1.min.js"><\/script>')</script> 
+<script src="plugins/popper.js/dist/umd/popper.min.js"></script> 
+<script src="plugins/bootstrap/dist/js/bootstrap.min.js"></script> 
+<script src="plugins/perfect-scrollbar/dist/perfect-scrollbar.min.js"></script> 
+<script src="plugins/screenfull/dist/screenfull.js"></script> 
+<script src="dist/js/theme.min.js"></script> 
+<script src="js/form-advanced.js"></script>
+<link rel="stylesheet" href="dist/css/bootstrap-multiselect.css">
+<script type="text/javascript" src="dist/js/bootstrap-multiselect.js"></script> 
+<script type="text/javascript">
+$(document).ready(function() {
+  $('.multiselect').multiselect({
+    enableFiltering: true,
+    includeSelectAllOption: true,
+    maxHeight: 400,
+    buttonWidth: '100%'
+  });
+  
+  $('#industrytype').on('change', function() {
+	 if ( this.value == '0')
+	  {
+		  $("#organizationalleveldiv").hide();
+		  $("#uploadresumediv").hide();
+	  }
+	  if ( this.value == '1')
+	  {
+		  $("#organizationalleveldiv").show();
+		  $("#uploadresumediv").show();
+	  }
+	  if ( this.value == '2')
+	  {
+		  $("#organizationalleveldiv").hide();
+		  $("#uploadresumediv").hide();
+	  }
+	  else
+	  {
+	  }
+  });
+  
+  // Show and hide  X1Experience,X2Experience and X3Experience
+  $('#organizationallevel').on('change', function() {
+	 if ( this.value == '0')
+	  {
+		$("#X1Experience").hide();
+		$("#X2Experience").hide();
+		$("#X3Experience").hide();
+	  }
+	  if ( this.value == '1')
+	  {
+		$("#X1Experience").show();
+		$("#X2Experience").hide();
+		$("#X3Experience").hide();
+	  }
+	   if ( this.value == '2')
+	  {
+		$("#X1Experience").hide();
+		$("#X2Experience").show();
+		$("#X3Experience").hide();
+	  }
+	   if ( this.value == '3')
+	  {
+		 $("#X1Experience").hide();
+		 $("#X2Experience").hide();
+		 $("#X3Experience").show();
+	  }
+	  else
+	  {
+	  }
+   });
+});
+</script>
+</body>
+</html>

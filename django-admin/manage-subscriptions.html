@@ -1,0 +1,313 @@
+<!DOCTYPE HTML>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Manage Subscriptions | Oysterwings</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="../favicon.png">
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800" rel="stylesheet">
+<link rel="stylesheet" href="../plugins/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="../plugins/fontawesome/fontawesome-free/css/all.min.css">
+<link rel="stylesheet" href="../plugins/icon-kit/dist/css/iconkit.min.css">
+<link rel="stylesheet" href="../plugins/ionicons/dist/css/ionicons.min.css">
+<link rel="stylesheet" href="../plugins/perfect-scrollbar/css/perfect-scrollbar.css">
+<link rel="stylesheet" href="../dist/css/theme.min.css">
+<script src="../src/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+<!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div class="wrapper">
+  <header class="header-top" header-theme="light">
+    <div class="container-fluid">
+      <div class="d-flex justify-content-between">
+        <div class="top-menu d-flex align-items-center">
+          <button type="button" class="btn-icon mobile-nav-toggle d-lg-none"><span></span></button>
+          <div class="header-search">
+            <div class="input-group"> <span class="input-group-addon search-close"><i class="ik ik-x"></i></span>
+              <input type="text" class="form-control">
+              <span class="input-group-addon search-btn"><i class="ik ik-search"></i></span> </div>
+          </div>
+          <button type="button" id="navbar-fullscreen" class="nav-link"><i class="ik ik-maximize"></i></button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="page-wrap">
+    <div class="app-sidebar colored">
+      <div class="sidebar-header"> <a class="header-brand" href="index.html">
+        <div class="logo-img"> <img src="../img/logo.png" class="header-brand-img" alt="Oysterwings" /> <span class="text">Oysterwings</span></div>
+        </a>
+        <button type="button" class="nav-toggle"><i data-toggle="expanded" class="ik ik-toggle-right toggle-icon"></i></button>
+        <button id="sidebarClose" class="nav-close"><i class="ik ik-x"></i></button>
+      </div>
+      <div class="sidebar-content">
+        <div class="nav-container">
+          <nav id="main-menu-navigation" class="navigation-main">
+            <div class="nav-lavel">Navigation</div>
+            <div class="nav-item"> <a href="index.html"><i class="ik ik-bar-chart-2"></i><span>Dashboard</span></a> </div>
+            <div class="nav-item"> <a href="adding-candidates.html"><i class="ik ik-user-plus"></i><span>Adding Candidates</span></a> </div>
+            <div class="nav-item"> <a href="badge-csv-upload.html"><i class="ik ik-upload-cloud"></i><span>Badge CSV Upload</span></a> </div>
+            <div class="nav-item"> <a href="master-password.html"><i class="ik ik-more-horizontal"></i><span>Master Password</span></a> </div>
+            <div class="nav-item"> <a href="manage-subscriptions.html"><i class="ik ik-package"></i><span>Manage Subscriptions</span></a></div>
+            <div class="nav-item"> <a href="other-features.html"><i class="ik ik-command"></i> <span>Other Features</span></a></div>
+            <div class="nav-item"> <a href="login.html"><i class="ik ik-log-out"></i> <span>Logout</span></a></div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="container-fluid">
+        <div class="page-header">
+          <div class="row align-items-end">
+            <div class="col-lg-8" >
+              <div class="page-header-title"> <i class="ik ik ik-package bg-blue"></i>
+                <div class="d-inline">
+                  <h5>Manage Subscriptions</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <nav class="breadcrumb-container" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"> <a href="index.html"><i class="ik ik-home"></i></a> </li>
+                  <li class="breadcrumb-item active" aria-current="page">Manage Subscriptions</li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <div class="card-header">
+                <h3><b>Filter</b></h3>
+              </div>
+              <div class="card-body">
+                <div class="form-group"><span><strong>Status</strong></span></div>
+                <div class="checkbox-fade fade-in-primary">
+                  <label>
+                    <input type="checkbox" class="" value="">
+                    <span class="cr"> <i class="cr-icon ik ik-check txt-primary"></i> </span> <span><strong>Paid</strong></span> </label>
+                </div>
+                <br>
+                <div class="checkbox-fade fade-in-primary">
+                  <label>
+                    <input type="checkbox" class="" value="">
+                    <span class="cr"> <i class="cr-icon ik ik-check txt-primary"></i> </span> <span><strong>Shared</strong></span> </label>
+                </div>
+                <br>
+                <div class="checkbox-fade fade-in-primary">
+                  <label>
+                    <input type="checkbox" class="" value="">
+                    <span class="cr"> <i class="cr-icon ik ik-check txt-primary"></i> </span> <span><strong>Cancelled</strong></span> </label>
+                </div>
+                <br>
+                <div class="checkbox-fade fade-in-primary">
+                  <label>
+                    <input type="checkbox" class="" value="">
+                    <span class="cr"> <i class="cr-icon ik ik-check txt-primary"></i> </span> <span><strong>Pending</strong></span> </label>
+                </div>
+                <br>
+                <div class="checkbox-fade fade-in-primary">
+                  <label>
+                    <input type="checkbox" class="" value="">
+                    <span class="cr"> <i class="cr-icon ik ik-check txt-primary"></i> </span> <span><strong>Declined</strong></span> </label>
+                </div>
+                <hr>
+                <div class="form-group"><span><strong>Subscription Plan</strong></span></div>
+                <div class="checkbox-fade fade-in-primary">
+                  <label>
+                    <input type="checkbox" class="" value="">
+                    <span class="cr"> <i class="cr-icon ik ik-check txt-primary"></i> </span> <span><strong>Economy/Independents</strong></span> </label>
+                </div>
+                <br>
+                <div class="checkbox-fade fade-in-primary">
+                  <label>
+                    <input type="checkbox" class="" value="">
+                    <span class="cr"> <i class="cr-icon ik ik-check txt-primary"></i> </span> <span><strong>Luxury/Lifestyle/Upper Upscale</strong></span> </label>
+                </div>
+                <br>
+                <div class="checkbox-fade fade-in-primary">
+                  <label>
+                    <input type="checkbox" class="" value="">
+                    <span class="cr"> <i class="cr-icon ik ik-check txt-primary"></i> </span> <span><strong>Upscale/Upper Midscale/Midscale</strong></span> </label>
+                </div>
+                <br>
+                <div class="checkbox-fade fade-in-primary">
+                  <label>
+                    <input type="checkbox" class="" value="">
+                    <span class="cr"> <i class="cr-icon ik ik-check txt-primary"></i> </span> <span><strong>Non-Aviation</strong></span> </label>
+                </div>
+                <hr />
+                <div class="row">
+                  <div class="col">
+                    <button type="button" class="btn btn-sm mr-3">Reset</button>
+                  </div>
+                  <div class="col text-right">
+                    <button type="button" class="btn btn-sm btn-primary">Apply</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-6 col-sm-12">
+            <h6 class="mb-3"> Subscriptions Details
+              <div class="col-md-6 float-right text-right"> <small> <i class="ik ik-check-circle fa-lg" title="Paid"></i> Paid  &nbsp;&nbsp; <i class="ik ik-share fa-lg" title="Shared"></i> Shared  &nbsp;&nbsp; <i class="ik ik-x-circle fa-lg" title="Cancelled"></i> Cancelled  &nbsp;&nbsp; <i class="ik ik-clock fa-lg" title="Pending"></i> Pending  &nbsp;&nbsp; <i class="ik ik-alert-circle fa-lg" title="Declined"></i> Declined  &nbsp;&nbsp; </small> </div>
+            </h6>
+            <div class="table-responsive">
+              <table class="table table-sm table-hover table-striped table-bordered" id="hoverTable">
+                <thead>
+                  <tr>
+                    <th>S.No</th>
+                    <th>Name</th>
+                    <th>Employer name</th>
+                    <th>Email</th>
+                    <th>Phone number</th>
+                    <th>X1 segment</th>
+                    <th class="text-center">Subscription Status</th>
+                    <th class="text-center">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>1</th>
+                    <td>Spicejet</td>
+                    <td>Pankaj Rawat</td>
+                    <td><a href="mailto:pankaj@gmail.com" class="text-primary">pankaj@gmail.com</a></td>
+                    <td><a href="tel:9999999999" class="text-primary">9999999999</a></td>
+                    <td>Economy/Independents</td>
+                    <td class="text-center"><i class="ik ik-check-circle fa-lg" title="Paid"></i></td>
+                    <td class="text-center"><a href="create-package.html"><i class="ik ik-package text-primary mr-2" title="Create Package"></i></a> <a href="" data-toggle="modal" data-target="#CancelSubscription"><i class="ik ik-x-circle text-dark mr-2" title="Cancel Subscription"></i></a> <a href="" data-toggle="modal" data-target="#Resend"><i class="ik ik-rotate-cw text-primary mr-2" title="Resend"></i></a> <a href="" data-toggle="modal" data-target="#DeclineRequest"><i class="ik ik-alert-circle text-dark mr-2 " title="Decline Request"></i></a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        
+        
+        <!-- Modal Cancel Subscription -->
+        <div class="modal fade" id="CancelSubscription" role="dialog">
+          <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Cancel Subscription</h5>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                Are you sure you cancel this subscription.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-sm btn-primary" data-dismiss="modal">Yes</button>
+                <button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">No</button>
+              </div>
+            </div>
+          </div>
+        </div>        
+        <!-- end Modal Cancel Subscription --> 
+        
+        
+        <!-- Modal Resend -->
+        <div class="modal fade" id="Resend" role="dialog">
+          <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Resend package information</h5>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+              		<div class="bd-example">
+                      <dl>
+                        <dt>Name</dt>
+                        <dd>Spicejet</dd>
+                        
+                        <dt>Employer name</dt>
+                        <dd>Pankaj Rawat</dd>
+                        
+                        <dt>Email</dt>
+                        <dd>pankaj@gmail.com</dd>
+                        
+                        <dt>Phone number</dt>
+                        <dd>9999999999</dd>
+                        
+                        <dt>X1 segment</dt>
+                        <dd>Economy/Independents</dd>
+                        
+                        <dt>Price</dt>
+                        <dd>$ 50,000</dd>
+                      </dl>
+                    </div>            
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-sm btn-primary">Resend</button>
+              </div>
+            </div>
+          </div>
+        </div>        
+        <!-- end Modal Resend --> 
+        
+        <!-- Modal Decline Request -->
+        <div class="modal fade" id="DeclineRequest" role="dialog">
+          <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Decline Request</h5>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                Are you sure you decline request this subscription.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-sm btn-primary" data-dismiss="modal">Yes</button>
+                <button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">No</button>
+              </div>
+            </div>
+          </div>
+        </div>        
+        <!-- end Modal Decline Request --> 
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="w-100 clearfix"> <span class="text-center text-sm-left d-md-inline-block">Copyright © 2021 Oysterwings.</span> <span class="float-none float-sm-right mt-1 mt-sm-0 text-center"><a href="https://www.digitalsolutions.co.in/" class="text-dark" target="_blank"><img src="../img/powered-by.png" /></a></span> </div>
+    </footer>
+  </div>
+</div>
+<script>window.jQuery || document.write('<script src="../src/js/vendor/jquery-3.3.1.min.js"><\/script>')</script> 
+<script src="../plugins/popper.js/dist/umd/popper.min.js"></script> 
+<script src="../plugins/bootstrap/dist/js/bootstrap.min.js"></script> 
+<script src="../plugins/perfect-scrollbar/dist/perfect-scrollbar.min.js"></script> 
+<script src="../plugins/screenfull/dist/screenfull.js"></script> 
+<script src="../dist/js/theme.min.js"></script> 
+<script src="../js/form-advanced.js"></script> 
+<script type="application/javascript">
+$('.parentCheckBox').on('change', function(){      
+      var $parentCheckBox = $(this),
+          $checkboxes = $parentCheckBox.closest('fieldset').find('.childCheckBox');
+      
+      if( $checkboxes.filter(':checked').length > 0 ){
+        $checkboxes.prop('checked', false);
+        $parentCheckBox.prop('checked', false);
+      } else {
+        $checkboxes.prop('checked', true);
+      }      
+    });
+
+    $('.childCheckBox').on('change', function(){      
+      var $this = $(this)
+          $childCheckBoxes = $this.closest('fieldset').find('.childCheckBox'),
+          $parentCheckBox = $this.closest('fieldset').find('.parentCheckBox'),
+          allSelected = $childCheckBoxes.filter(':checked').length === $childCheckBoxes.length;
+      
+      $parentCheckBox.prop('checked', allSelected);        
+      
+    });
+</script>
+</body>
+</html>

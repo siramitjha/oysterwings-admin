@@ -1,0 +1,290 @@
+<!DOCTYPE HTML>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Question Asked | Oysterwings</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.png">
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800" rel="stylesheet">
+<link rel="stylesheet" href="plugins/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="plugins/fontawesome/fontawesome-free/css/all.min.css">
+<link rel="stylesheet" href="plugins/icon-kit/dist/css/iconkit.min.css">
+<link rel="stylesheet" href="plugins/ionicons/dist/css/ionicons.min.css">
+<link rel="stylesheet" href="plugins/perfect-scrollbar/css/perfect-scrollbar.css">
+<link rel="stylesheet" href="dist/css/theme.min.css">
+<script src="src/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+<!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div class="wrapper">
+  <header class="header-top" header-theme="light">
+    <div class="container-fluid">
+      <div class="d-flex justify-content-between">
+        <div class="top-menu d-flex align-items-center">
+          <button type="button" class="btn-icon mobile-nav-toggle d-lg-none"><span></span></button>
+          <div class="header-search">
+            <div class="input-group"> <span class="input-group-addon search-close"><i class="ik ik-x"></i></span>
+              <input type="text" class="form-control">
+              <span class="input-group-addon search-btn"><i class="ik ik-search"></i></span> </div>
+          </div>
+          <button type="button" id="navbar-fullscreen" class="nav-link"><i class="ik ik-maximize"></i></button>
+        </div>
+        <div class="top-menu d-flex align-items-center">
+          <div class="dropdown"> <a class="nav-link dropdown-toggle" href="#" id="notiDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="ik ik-bell"></i><span class="badge bg-danger">3</span></a>
+            <div class="dropdown-menu dropdown-menu-right notification-dropdown" aria-labelledby="notiDropdown">
+              <h4 class="header">Notifications</h4>
+              <div class="notifications-wrap"> <a href="#" class="media"> <span class="d-flex"> <i class="ik ik-check"></i> </span> <span class="media-body"> <span class="heading-font-family media-heading">Invitation accepted</span> <span class="media-content">Your have been Invited ...</span> </span> </a> <a href="#" class="media"> <span class="d-flex"> <img src="img/air-india3.jpg" class="rounded-circle" alt=""> </span> <span class="media-body"> <span class="heading-font-family media-heading">Air India</span> <span class="media-content">Meeting with Rahul on Friday 10 AM</span> </span> </a> <a href="#" class="media"> <span class="d-flex"> <i class="ik ik-calendar"></i> </span> <span class="media-body"> <span class="heading-font-family media-heading">To Do</span> <span class="media-content">Meeting with Nathan on Saturday 9 AM ...</span> </span> </a> </div>
+              <div class="footer"><a href="#">See all activity</a></div>
+            </div>
+          </div>
+          <div class="dropdown"> <a class="dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="ml-3">Pankaj </span><img class="avatar" src="img/user.jpg" alt=""></a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown"> <a class="dropdown-item" href="profile.html"><i class="ik ik-user dropdown-icon"></i>View Profile</a><a class="dropdown-item" href="change-password.html"><i class="ik ik-lock dropdown-icon"></i>Change Password</a> <a href="#" class="dropdown-item" data-toggle="modal" data-target="#myModalInvite"><i class="ik ik-share dropdown-icon"></i>Invite Peers</a> <a class="dropdown-item" href="login.html"><i class="ik ik-power dropdown-icon"></i> Logout</a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <!-- myModalInvite Modal -->
+  <div class="modal fade" id="myModalInvite" role="dialog">
+    <div class="modal-dialog modal-sm" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Invite Peers</h5>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <form class="forms-sample">
+            <div class="form-group">
+              <label>Full Name</label>
+              <input type="text" class="form-control" name="" placeholder="Enter Full Name">
+            </div>
+            <div class="form-group">
+              <label>Email Address</label>
+              <input type="Email" class="form-control" name="" placeholder="Enter Email Address">
+            </div>
+            <div class="form-group">
+              <label>How did you hear about us? </label>
+              <select class="form-control">
+                <option>Select how did you hear about us?</option>
+                <option>Word of mouth</option>
+                <option>Employer</option>
+                <option>Television</option>
+                <option>Internet Advertisement</option>
+                <option>Search Engine</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Submit</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- //// myModalInvite Modal -->
+  <div class="page-wrap">
+    <div class="app-sidebar colored">
+      <div class="sidebar-header"> <a class="header-brand" href="index.html">
+        <div class="logo-img"> <img src="img/logo.png" class="header-brand-img" alt="Oysterwings" /> <span class="text">Oysterwings</span></div>
+        </a>
+        <button type="button" class="nav-toggle"><i data-toggle="expanded" class="ik ik-toggle-right toggle-icon"></i></button>
+        <button id="sidebarClose" class="nav-close"><i class="ik ik-x"></i></button>
+      </div>
+      <div class="sidebar-content">
+        <div class="nav-container">
+          <nav id="main-menu-navigation" class="navigation-main">
+            <div class="nav-lavel">Navigation</div>
+            <div class="nav-item"> <a href="index.html"><i class="ik ik-bar-chart-2"></i><span>Dashboard</span></a> </div>
+            <div class="nav-item"> <a href="complete-profile.html"><i class="ik ik-user"></i><span>Complete Profile</span></a> </div>
+            <div class="nav-item"> <a href="blocked-employer.html"><i class="ik ik-alert-triangle"></i><span>Block Employer</span></a> </div>
+            <div class="nav-item"> <a href="my-matches.html"><i class="ik ik-check-circle"></i><span>My Matches</span></a> </div>
+            <div class="nav-item"> <a href="my-conversations.html#lastli"><i class="ik ik-message-circle"></i><span>My Conversations</span> <span class="badge badge-danger">3</span></a> </div>
+            <div class="nav-item"> <a href="questions.html"><i class="ik ik-help-circle"></i> <span>Questions Asked</span></a> </div>
+            <div class="nav-item"> <a href="calendar.html"><i class="ik ik-calendar"></i> <span>Calendar</span></a></div>
+            <div class="nav-item"> <a href="notification.html"><i class="ik ik-bell"></i> <span>Notification</span></a></div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="container-fluid">
+        <div class="page-header">
+          <div class="row align-items-end">
+            <div class="col" >
+              <div class="page-header-title"> <i class="ik ik-help-circle bg-blue"></i>
+                <div class="d-inline">
+                  <h5>Question Asked</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <nav class="breadcrumb-container" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="index.html"><i class="ik ik-home"></i></a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Question Asked</li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="row clearfix">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <style type="text/css">
+				.accordion .fa{font-size:18px;font-weight: bold;position: relative;top: 2px; padding: 0;}
+				.headingquestion{color: #000; font-weight: bold; font-size:18px; text-decoration: none;}
+				.comment-box{ border-radius: 10px; background-color: #eeeeee;}
+				.card .card-header { padding:5px;}
+			</style>
+            <div class="bs-example">
+              <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <div class="col-md-6">
+                      <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne"><i class="fa fa-angle-down"></i><span class="headingquestion"> Your First Question? </span></button>
+                    </div>
+                    <div class="col-md-6 text-right"><img class="circle" src="img/spicejet.jpg" alt="Spicejet" title="Spicejet"> <br />
+                      <span><small>Dec 25, 2020</small> &nbsp;&nbsp; <b>Spicejet</b></span>
+                    </div>
+                  </div>
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                      <div class="form-group form-row">
+                        <div class="col-md-12">
+                          <p class="p-3 comment-box">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+                            <br>
+                            <i class="ik ik-calendar"></i> Post Date: Dec 25, 2020 <br>
+                            <a class="btn btn-sm btn-link" href="#" data-toggle="modal" data-target="#EditAnswer"><i class="ik ik-edit"></i> Edit</a> <a class="btn btn-sm btn-link text-red" href="#"><i class="ik ik-trash"></i>Delete</a> </p>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label>Answer</label>
+                        <textarea class="form-control" placeholder="Type here..."></textarea>
+                        <div class="text-right"> <a type="button" class="btn-sm btn-info mt-3" href="#">Send</a> </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <div class="col-md-6">
+                      <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo"><i class="fa fa-angle-right"></i><span class="headingquestion"> Your second Question?</span></button>
+                    </div>
+                    <div class="col-md-6 text-right"><img src="img/eurowings.jpg" alt="Eurowings" title="Eurowings"> <br />
+                      <span><small> Dec 25, 2020</small> &nbsp;&nbsp; <b>Eurowings</b></span>
+                    </div>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      <div class="form-group form-row">
+                        <div class="col-md-12">
+                          <p class="p-3 comment-box">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+                            <br>
+                            <i class="ik ik-calendar"></i> Post Date: Dec 25, 2020 <br>
+                            <a class="btn btn-sm btn-link" href="#" data-toggle="modal" data-target="#EditAnswer"><i class="ik ik-edit"></i> Edit</a> <a class="btn btn-sm btn-link text-red" href="#"><i class="ik ik-trash"></i>Delete</a> </p>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label>Answer</label>
+                        <textarea class="form-control" placeholder="Type here..."></textarea>
+                        <div class="text-right"> <a type="button" class="btn-sm btn-info mt-3" href="#">Send</a> </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <div class="col-md-6">
+                      <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"><i class="fa fa-angle-right"></i><span class="headingquestion"> Your Third Question?</span></button>
+                    </div>
+                    <div class="col-md-6 text-right"><img class="circle" src="img/airindia.jpg" alt="Airindia" title="Airindia"> <br />
+                      <span><small> Dec 25, 2020</small> &nbsp;&nbsp; <b>Airindia</b></span>
+                    </div>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      <div class="form-group form-row">
+                        <div class="col-md-12">
+                          <p class="p-3 comment-box">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+                            <br>
+                            <i class="ik ik-calendar"></i> Post Date:&nbsp; Dec 25, 2020 <br>
+                            <a class="btn btn-sm btn-link" href="#" data-toggle="modal" data-target="#EditAnswer"><i class="ik ik-edit"></i> Edit</a> <a class="btn btn-sm btn-link text-red" href="#"><i class="ik ik-trash"></i>Delete</a> </p>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label>Answer</label>
+                        <textarea class="form-control" placeholder="Type here..."></textarea>
+                        <div class="text-right"> <a type="button" class="btn-sm btn-info mt-3" href="#">Send</a> </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <footer class="footer">
+      <div class="w-100 clearfix"> <span class="text-center text-sm-left d-md-inline-block">Copyright © 2021 Oysterwings.</span> <span class="float-none float-sm-right mt-1 mt-sm-0 text-center"><a href="https://www.digitalsolutions.co.in/" class="text-dark" target="_blank"><img src="img/powered-by.png" /></a></span> </div>
+    </footer>
+  </div>
+</div>
+
+<!-- Modal Edit -->
+<div class="modal fade" id="EditAnswer">
+<div class="modal-dialog modal-sm" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Edit Answer</h5>
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <div class="form-group">
+        <label>Edit Answer</label>
+        <textarea class="form-control" rows="5" cols="5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</textarea>
+      </div>
+    </div>
+    <div class="modal-footer"><a href="#" type="button" class="btn-sm btn-info" data-dismiss="modal">Update</a>  <a href="#" type="button" class="btn-sm btn-secondary" data-dismiss="modal">Cancel</a> </div>
+  </div>
+</div>
+</div>
+<!-- end Modal Edit -->
+
+<script>window.jQuery || document.write('<script src="src/js/vendor/jquery-3.3.1.min.js"><\/script>')</script> 
+<script src="plugins/popper.js/dist/umd/popper.min.js"></script> 
+<script src="plugins/bootstrap/dist/js/bootstrap.min.js"></script> 
+<script src="plugins/perfect-scrollbar/dist/perfect-scrollbar.min.js"></script> 
+<script src="plugins/screenfull/dist/screenfull.js"></script> 
+<script src="dist/js/theme.min.js"></script> 
+<script src="js/form-advanced.js"></script> 
+<script type="application/javascript">
+$(document).ready(function(){
+	// Add down arrow icon for collapse element which is open by default
+	$(".collapse.show").each(function(){
+	  $(this).prev(".card-header").find(".fa").addClass("fa-angle-down").removeClass("fa-angle-right");
+	});
+	
+	// Toggle right and down arrow icon on show hide of collapse element
+	$(".collapse").on('show.bs.collapse', function(){
+	  $(this).prev(".card-header").find(".fa").removeClass("fa-angle-right").addClass("fa-angle-down");
+	}).on('hide.bs.collapse', function(){
+	  $(this).prev(".card-header").find(".fa").removeClass("fa-angle-down").addClass("fa-angle-right");
+	});
+});
+</script>
+</body>
+</html>

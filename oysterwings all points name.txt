@@ -1,0 +1,40 @@
+Oysterwings all pages:
+- Candidate section
+   - Register (Done)
+   - Complete profile ( still working)
+   - sign-in:       (Done)
+   - Forgot Password   (Done)
+   - Change password    (Done)
+   - View Edit profile
+   - Invite peers         (Done)
+   - Blocked Employer      (Done)
+   - My matches         (Done)
+   - My Conversations   (Done)
+   - Calender
+   - Question asked
+   - Notifications 
+   - Language
+   - Logout         (Done)
+Employer Recruiter:
+   - Register 
+   - Complete profile 
+   - sign-in:      
+   - Forgot Password   
+   - Change password    
+   - View Edit profile
+   - Jobs         
+   - Oysterwings search  
+   - My matches        
+   - My Conversations  
+   - Interviews
+   - My Subscription
+   - Notifications 
+   - Language
+   - Logout
+Django Admin:
+   - Adding Candidates
+   - Badge CSV upload
+   - Master Password
+   - Manag subscription
+   - Other Features
+Django admin
